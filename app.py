@@ -348,5 +348,5 @@ Each row is a future match for the selected club, with Win/Draw/Loss probabiliti
 """,
             unsafe_allow_html=True,
         )
-        st.markdown("<div style='height:220px;'></div>", unsafe_allow_html=True)
+st.markdown("<div style='height:220px;'></div>", unsafe_allow_html=True)
 
