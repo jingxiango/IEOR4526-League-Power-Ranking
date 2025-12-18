@@ -261,13 +261,6 @@ else:
     team_df["match_date"] = pd.to_datetime(team_df["match_date"], errors="coerce")
     team_df = team_df.sort_values("match_date", ascending=True)
 
-    # Sort
-    if "match_date" in team_df.columns:
-        team_df["match_date"] = pd.to_datetime(team_df["match_date"], errors="coerce")
-        team_df = team_df.sort_values(["match_date_sort"], ascending=True)
-    elif "exp_pts" in team_df.columns:
-        team_df = team_df.sort_values("exp_pts", ascending=False)
-
     st.markdown(
         """
 <div class="smallmuted" style="margin-top:6px; margin-bottom:4px;">
