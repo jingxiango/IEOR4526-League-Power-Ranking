@@ -55,7 +55,7 @@ FIXTURE_DIR = DATA / "match_level_fixtures"
 def _latest_spark_part(folder: Path) -> Path | None:
     """
     Spark writes folder/part-0000... (sometimes without .csv extension),
-    plus _SUCCESS and *.crc files. This returns the newest non-crc part file.
+    plus _SUCCESS and *.crc files. This returns the largest non-crc part file.
     """
     if not folder.exists():
         return None
@@ -65,7 +65,6 @@ def _latest_spark_part(folder: Path) -> Path | None:
     if not files:
         return None
 
-    # pick largest (usually the real data) as a robust default
     files_p = [Path(f) for f in files]
     return max(files_p, key=lambda p: p.stat().st_size)
 
@@ -75,11 +74,7 @@ def load_dashboard() -> pd.DataFrame | None:
     fp = _latest_spark_part(DASH_DIR)
     if fp is None:
         return None
-    try:
-        return pd.read_csv(fp)
-    except Exception:
-        # sometimes Spark writes without header; fallback try
-        return pd.read_csv(fp, header=0)
+    return pd.read_csv(fp)
 
 
 @st.cache_data(show_spinner=False)
@@ -87,10 +82,7 @@ def load_fixtures() -> pd.DataFrame | None:
     fp = _latest_spark_part(FIXTURE_DIR)
     if fp is None:
         return None
-    try:
-        return pd.read_csv(fp)
-    except Exception:
-        return pd.read_csv(fp, header=0)
+    return pd.read_csv(fp)
 
 
 def to_pct(x):
@@ -117,7 +109,7 @@ def prob_bar(pw, pdw, pl):
     )
 
 
-def safe_num(df, col):
+def safe_num(df: pd.DataFrame, col: str) -> pd.DataFrame:
     if col in df.columns:
         df[col] = pd.to_numeric(df[col], errors="coerce")
     return df
@@ -136,14 +128,11 @@ if page == "Power Ranking":
 
     df = load_dashboard()
     if df is None:
-        st.warning(
-            "No dashboard output found.\n\n"
-            "Expected Spark output under `data/dashboard_table_csv/` as `part-*` files."
-        )
+        st.warning("No dashboard output found. Run the Spark export first.")
         st.stop()
 
-    # expected columns (flexible): team, pts, spi, exp_pts_mc, win_league_pct, make_acl_pct
-    for c in ["pts", "Strength Index", "exp_pts_mc", "win_league_pct", "make_acl_pct"]:
+    # numeric casting for expected columns
+    for c in ["pts", "spi", "exp_pts_mc", "win_league_pct", "make_acl_pct"]:
         df = safe_num(df, c)
 
     # Sort by current league position (table order)
@@ -153,8 +142,7 @@ if page == "Power Ranking":
     # Add league position (1, 2, 3, ...)
     df["league_pos"] = range(1, len(df) + 1)
 
-
-    # rename to pretty
+    # Rename to pretty
     df_show = df.rename(
         columns={
             "league_pos": "Pos",
@@ -167,52 +155,53 @@ if page == "Power Ranking":
         }
     ).copy()
 
-
-    # convert pct columns to 0-100 if needed
+    # Convert pct columns to 0-100 if needed
     for c in ["Win League (%)", "Make ACL Top 2 (%)"]:
         if c in df_show.columns:
             df_show[c] = df_show[c].apply(lambda x: to_pct(x) if pd.notna(x) else None)
 
-    # keep a clean column order if present
+    # Keep a clean column order
     preferred = [
         "Pos",
         "Club",
         "Current Pts",
-        "SPI",
-        "Expected Final Pts (MC)",
+        "Power Index",
+        "Expected Final Pts",
         "Make ACL Top 2 (%)",
         "Win League (%)",
     ]
-
-    cols = [c for c in preferred if c in df_show.columns] + [
-        c for c in df_show.columns if c not in preferred]
+    cols = [c for c in preferred if c in df_show.columns] + [c for c in df_show.columns if c not in preferred]
     df_show = df_show[cols]
 
-    # rounding
-    for c in ["Power Index", "Expected Final Pts", "Win League (%)", "Make ACL Top 2 (%)", "Current Pts"]:
+    # Rounding: Power Index and Expected Final Pts to integer; others nice display
+    if "Power Index" in df_show.columns:
+        df_show["Power Index"] = pd.to_numeric(df_show["Power Index"], errors="coerce").round(0)
+    if "Expected Final Pts" in df_show.columns:
+        df_show["Expected Final Pts"] = pd.to_numeric(df_show["Expected Final Pts"], errors="coerce").round(0)
+    for c in ["Pos", "Current Pts", "Win League (%)", "Make ACL Top 2 (%)"]:
         if c in df_show.columns:
-            df_show[c] = pd.to_numeric(df_show[c], errors="coerce").round(2)
+            df_show[c] = pd.to_numeric(df_show[c], errors="coerce").round(0)
 
-    # display as a compact HTML table (more 538-ish than st.dataframe)
+    # Display as compact HTML table
     def fmt(v):
         if pd.isna(v):
             return ""
         return str(v)
 
     header = "".join([f"<th>{c}</th>" for c in df_show.columns])
+
     rows_html = []
     for _, r in df_show.iterrows():
         tds = []
         for c in df_show.columns:
             v = r[c]
             cls = "right" if c != "Club" else ""
-            # show % nicely
+
             if c.endswith("(%)") and pd.notna(v):
                 v = f"{float(v):.0f}%"
-            elif c in ["Current Pts", "Expected Final Pts (MC)"] and pd.notna(v):
+            elif c in ["Pos", "Current Pts", "Power Index", "Expected Final Pts"] and pd.notna(v):
                 v = f"{float(v):.0f}"
-            elif c == "SPI" and pd.notna(v):
-                v = f"{float(v):.1f}"
+
             tds.append(f'<td class="{cls}">{fmt(v)}</td>')
         rows_html.append("<tr>" + "".join(tds) + "</tr>")
 
@@ -238,49 +227,36 @@ else:
 
     fixtures = load_fixtures()
     if fixtures is None:
-        st.info(
-            "No fixture output found.\n\n"
-            "Expected Spark output under `data/match_level_fixtures/` as `part-*` files."
-        )
+        st.info("No fixture output found. Run the Spark export first.")
         st.stop()
-
-    # expected minimal columns: team, opponent, venue, p_win, p_draw, p_loss, exp_pts
-    # try to normalize common alternatives
-    rename_map = {}
-    if "home_team" in fixtures.columns and "away_team" in fixtures.columns and "team" not in fixtures.columns:
-        # if you stored fixtures as home/away per match, you can keep this,
-        # but the UI below expects team/opponent rows
-        pass
-
-    fixtures = fixtures.rename(columns=rename_map).copy()
 
     # numeric columns
     for c in ["p_win", "p_draw", "p_loss", "exp_pts", "xg_for", "xg_against"]:
         fixtures = safe_num(fixtures, c)
 
-    # build team dropdown
     if "team" not in fixtures.columns:
         st.error("Fixtures file must contain a `team` column (team-opponent rows).")
         st.stop()
 
-    teams = sorted(fixtures["team"].dropna().astype(str).unique().tolist())
-    if not teams:
-        st.error("No teams found in fixtures output.")
-        st.stop()
+    # Optional: dedupe (prevents double counting)
+    dedup_cols = [c for c in ["kickoff", "team", "opponent", "venue"] if c in fixtures.columns]
+    if dedup_cols:
+        fixtures = fixtures.drop_duplicates(subset=dedup_cols, keep="first")
+    else:
+        fixtures = fixtures.drop_duplicates(subset=["team", "opponent", "venue"], keep="first")
 
+    teams = sorted(fixtures["team"].dropna().astype(str).unique().tolist())
     selected_team = st.selectbox("Select team", teams, index=0)
 
     team_df = fixtures[fixtures["team"].astype(str) == str(selected_team)].copy()
 
-    # If kickoff exists, sort by time; else sort by exp_pts desc
+    # Sort
     if "kickoff" in team_df.columns:
-        # don't assume perfect datetime
         team_df["kickoff_sort"] = pd.to_datetime(team_df["kickoff"], errors="coerce")
         team_df = team_df.sort_values(["kickoff_sort"], ascending=True)
     elif "exp_pts" in team_df.columns:
         team_df = team_df.sort_values("exp_pts", ascending=False)
 
-    # header row labels
     st.markdown(
         """
 <div class="smallmuted" style="margin-top:6px; margin-bottom:4px;">
@@ -290,13 +266,13 @@ Each row is a future match for the selected club, with Win/Draw/Loss probabiliti
         unsafe_allow_html=True,
     )
 
-    # Render fixture rows like 538 “cards”
-    # Required columns: opponent, venue, p_win, p_draw, p_loss, exp_pts
+    # Required columns
     missing = [c for c in ["opponent", "venue", "p_win", "p_draw", "p_loss", "exp_pts"] if c not in team_df.columns]
     if missing:
         st.error(f"Fixtures output is missing columns: {missing}")
         st.stop()
 
+    # Render fixture cards
     for _, r in team_df.iterrows():
         opp = r.get("opponent", "")
         venue = r.get("venue", "")
@@ -305,28 +281,29 @@ Each row is a future match for the selected club, with Win/Draw/Loss probabiliti
         pw, pdw, pl = r.get("p_win", None), r.get("p_draw", None), r.get("p_loss", None)
         exp_pts = r.get("exp_pts", None)
 
-        pwp = to_pct(pw)
-        pdwp = to_pct(pdw)
-        plp = to_pct(pl)
+        pwp = to_pct(pw) or 0.0
+        pdwp = to_pct(pdw) or 0.0
+        plp = to_pct(pl) or 0.0
 
-        # xG (optional)
+        # xG line (no indentation -> renders as HTML)
         xg_for = r.get("xg_for", None)
         xg_against = r.get("xg_against", None)
         xg_line = ""
         if "xg_for" in team_df.columns and "xg_against" in team_df.columns:
             if pd.notna(xg_for) and pd.notna(xg_against):
-                xg_line = (f"""
-                <div class="smallmuted">
-                    xG {float(xg_for):.2f} – {float(xg_against):.2f}
-                </div>
-                """)
-        # correct home/away ordering (optional but recommended)
+                xg_line = (
+                    f'<div class="smallmuted">'
+                    f'xG {float(xg_for):.2f} – {float(xg_against):.2f}'
+                    f'</div>'
+                )
+
+        # Home/away ordering
         if isinstance(venue, str) and venue.upper() == "A":
             title = f"{opp} vs {selected_team}"
         else:
             title = f"{selected_team} vs {opp}"
 
-        # pretty venue
+        # Pretty venue
         venue_txt = venue
         if isinstance(venue, str):
             if venue.upper() == "H":
@@ -336,24 +313,25 @@ Each row is a future match for the selected club, with Win/Draw/Loss probabiliti
 
         exp_txt = "" if pd.isna(exp_pts) else f"{float(exp_pts):.2f}"
 
-        st.markdown(f"""
-        <div class="rowcard">
-        <div class="smallmuted">{kickoff} • {venue_txt}</div>
-        <div class="matchname">{title}</div>
-        {xg_line}
+        st.markdown(
+            f"""
+<div class="rowcard">
+  <div class="smallmuted">{kickoff} • {venue_txt}</div>
+  <div class="matchname">{title}</div>
+  {xg_line}
 
-        <div style="display:flex; gap:14px; align-items:center; margin-top:8px;">
-            {prob_bar(pw, pdw, pl)}
-            <div class="smallmuted" style="min-width:220px;">
-            Win {0 if pwp is None else pwp:.0f}% •
-            Draw {0 if pdwp is None else pdwp:.0f}% •
-            Loss {0 if plp is None else plp:.0f}%
-            </div>
-            <div style="flex:1;"></div>
-            <div>
-            <div class="smallmuted">Expected Pts</div>
-            <div style="font-weight:800; font-size:14px;">{exp_txt}</div>
-            </div>
-        </div>
-        </div>
-        """, unsafe_allow_html=True)
+  <div style="display:flex; gap:14px; align-items:center; margin-top:8px;">
+    {prob_bar(pw, pdw, pl)}
+    <div class="smallmuted" style="min-width:220px;">
+      Win {pwp:.0f}% • Draw {pdwp:.0f}% • Loss {plp:.0f}%
+    </div>
+    <div style="flex:1;"></div>
+    <div>
+      <div class="smallmuted">Expected Pts</div>
+      <div style="font-weight:800;">{exp_txt}</div>
+    </div>
+  </div>
+</div>
+""",
+            unsafe_allow_html=True,
+        )
