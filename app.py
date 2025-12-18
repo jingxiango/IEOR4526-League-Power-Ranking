@@ -107,13 +107,14 @@ def prob_bar(pw, pdw, pl):
     pl = to_pct(pl) or 0.0
     s = max(pw + pdw + pl, 1e-9)
     pw, pdw, pl = pw / s * 100, pdw / s * 100, pl / s * 100
-    return f"""
-    <div class="probbar">
-      <div class="win" style="width:{pw:.2f}%"></div>
-      <div class="draw" style="width:{pdw:.2f}%"></div>
-      <div class="loss" style="width:{pl:.2f}%"></div>
-    </div>
-    """
+
+    return (
+        f'<div class="probbar">'
+        f'<div class="win" style="width:{pw:.2f}%"></div>'
+        f'<div class="draw" style="width:{pdw:.2f}%"></div>'
+        f'<div class="loss" style="width:{pl:.2f}%"></div>'
+        f'</div>'
+    )
 
 
 def safe_num(df, col):
@@ -147,7 +148,7 @@ if page == "Power Ranking":
         st.stop()
 
     # expected columns (flexible): team, pts, spi, exp_pts_mc, win_league_pct, make_acl_pct
-    for c in ["pts", "spi", "exp_pts_mc", "win_league_pct", "make_acl_pct"]:
+    for c in ["pts", "Strength Index", "exp_pts_mc", "win_league_pct", "make_acl_pct"]:
         df = safe_num(df, c)
 
     # Sort priority: win league prob then SPI then current pts
@@ -227,21 +228,6 @@ if page == "Power Ranking":
 """,
         unsafe_allow_html=True,
     )
-
-    # quick visuals
-    st.markdown("")
-    c1, c2 = st.columns(2)
-    if "Win League (%)" in df_show.columns:
-        with c1:
-            st.subheader("Win League (%)")
-            chart_df = df_show.set_index("Club")[["Win League (%)"]].copy()
-            st.bar_chart(chart_df)
-    if "Make ACL Top 2 (%)" in df_show.columns:
-        with c2:
-            st.subheader("Make ACL Top 2 (%)")
-            chart_df = df_show.set_index("Club")[["Make ACL Top 2 (%)"]].copy()
-            st.bar_chart(chart_df)
-
 
 # -------------------------
 # Fixtures page
