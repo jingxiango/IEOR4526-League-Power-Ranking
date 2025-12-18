@@ -128,11 +128,6 @@ def safe_num(df, col):
 # -------------------------
 page = st.sidebar.radio("View", ["Power Ranking", "Fixtures"], index=0)
 
-st.sidebar.markdown("---")
-st.sidebar.caption("Data folders expected:")
-st.sidebar.code(f"{DASH_DIR}\n{FIXTURE_DIR}", language="text")
-
-
 # -------------------------
 # Power Ranking page
 # -------------------------
@@ -194,7 +189,7 @@ if page == "Power Ranking":
     df_show = df_show[cols]
 
     # rounding
-    for c in ["SPI", "Expected Final Pts (MC)", "Win League (%)", "Make ACL Top 2 (%)", "Current Pts"]:
+    for c in ["Power Index", "Expected Final Pts", "Win League (%)", "Make ACL Top 2 (%)", "Current Pts"]:
         if c in df_show.columns:
             df_show[c] = pd.to_numeric(df_show[c], errors="coerce").round(2)
 
