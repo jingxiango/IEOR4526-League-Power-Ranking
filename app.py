@@ -238,12 +238,6 @@ else:
         st.error("Fixtures file must contain a `team` column (team-opponent rows).")
         st.stop()
 
-    # Optional: dedupe (prevents double counting)
-    dedup_cols = [c for c in ["kickoff", "team", "opponent", "venue"] if c in fixtures.columns]
-    if dedup_cols:
-        fixtures = fixtures.drop_duplicates(subset=dedup_cols, keep="first")
-    else:
-        fixtures = fixtures.drop_duplicates(subset=["team", "opponent", "venue"], keep="first")
 
     teams = sorted(fixtures["team"].dropna().astype(str).unique().tolist())
     selected_team = st.selectbox("Select team", teams, index=0)
