@@ -256,11 +256,13 @@ else:
     selected_team = st.selectbox("Select team", teams, index=0)
 
     team_df = fixtures[fixtures["team"].astype(str) == str(selected_team)].copy()
+    team_df["match_date"] = pd.to_datetime(team_df["match_date"], errors="coerce")
+    team_df = team_df.sort_values("match_date", ascending=True)
 
     # Sort
-    if "kickoff" in team_df.columns:
-        team_df["kickoff_sort"] = pd.to_datetime(team_df["kickoff"], errors="coerce")
-        team_df = team_df.sort_values(["kickoff_sort"], ascending=True)
+    if "match_date" in team_df.columns:
+        team_df["match_date"] = pd.to_datetime(team_df["match_date"], errors="coerce")
+        team_df = team_df.sort_values(["match_date_sort"], ascending=True)
     elif "exp_pts" in team_df.columns:
         team_df = team_df.sort_values("exp_pts", ascending=False)
 
@@ -283,8 +285,7 @@ Each row is a future match for the selected club, with Win/Draw/Loss probabiliti
     for _, r in team_df.iterrows():
         opp = r.get("opponent", "")
         venue = r.get("venue", "")
-        kickoff = r.get("kickoff", "")
-
+        match_date = r["match_date"].strftime("%Y-%m-%d") if pd.notna(r["match_date"]) else ""
         pw, pdw, pl = r.get("p_win", None), r.get("p_draw", None), r.get("p_loss", None)
         exp_pts = r.get("exp_pts", None)
 
@@ -323,7 +324,7 @@ Each row is a future match for the selected club, with Win/Draw/Loss probabiliti
         st.markdown(
             f"""
 <div class="rowcard">
-  <div class="smallmuted">{kickoff} • {venue_txt}</div>
+  <div class="smallmuted">{match_date} • {venue_txt}</div>
   <div class="matchname">{title}</div>
   {xg_line}
 
