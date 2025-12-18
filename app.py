@@ -18,9 +18,10 @@ header[data-testid="stHeader"] { position: sticky; top: 0; z-index: 999; }
 
 /* Reduce top whitespace */
 div[data-testid="stAppViewContainer"] > .main { padding-top: 0.25rem; }
-/* Prevent bottom-right Streamlit overlay from covering last rows */
-div[data-testid="stAppViewContainer"] .main {
-  padding-bottom: 160px;
+
+/* Extra bottom space so fixed overlay doesn't cover content */
+div[data-testid="stAppViewContainer"] {
+  padding-bottom: 240px;
 }
 
 .block-container { padding-top: 0.2rem; padding-bottom: 2rem; max-width: 1200px; }
@@ -347,3 +348,5 @@ Each row is a future match for the selected club, with Win/Draw/Loss probabiliti
 """,
             unsafe_allow_html=True,
         )
+        st.markdown("<div style='height:220px;'></div>", unsafe_allow_html=True)
+
