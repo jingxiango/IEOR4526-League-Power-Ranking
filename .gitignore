@@ -1,0 +1,41 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# ======================
+# Jupyter / Notebooks
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Streamlit
+# ======================
+.streamlit/
+streamlit_out/
+
+# ======================
+# Project-specific caches
+# ======================
+.sofascore_stats_cache/
+
+# ======================
+# Temporary / scratch
+# ======================
+Untitled.ipynb
+*.tmp
