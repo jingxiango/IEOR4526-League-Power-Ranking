@@ -27,9 +27,5 @@ Thumbs.db
 # Project-specific caches
 # ======================
 .sofascore_stats_cache/
+.sofascore_event_page_cache/
 
-# ======================
-# Temporary / scratch
-# ======================
-Untitled.ipynb
-*.tmp
