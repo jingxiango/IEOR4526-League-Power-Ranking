@@ -20,7 +20,7 @@ header[data-testid="stHeader"] { position: sticky; top: 0; z-index: 999; }
 div[data-testid="stAppViewContainer"] > .main { padding-top: 0.25rem; }
 /* Prevent bottom-right Streamlit overlay from covering last rows */
 div[data-testid="stAppViewContainer"] .main {
-  padding-bottom: 120px;
+  padding-bottom: 160px;
 }
 
 .block-container { padding-top: 0.2rem; padding-bottom: 2rem; max-width: 1200px; }
