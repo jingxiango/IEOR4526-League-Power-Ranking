@@ -1,0 +1,131 @@
+match_id,team,opponent,venue,xg_for,xg_against,p_win,p_draw,p_loss,exp_pts
+zwNinCpI,Geylang Int.,Balestier Khalsa,H,2.17,2.0,43.08,20.17,36.76,1.49
+r3QapjFU,Albirex Niigata,Young Lions,H,2.06,1.35,53.73,21.26,25.01,1.82
+MTeA4g0n,Tampines Rovers,Lion City Sailors,H,1.75,1.92,35.76,21.63,42.61,1.29
+fsfI2XUb,Tanjong Pagar Utd.,Hougang Utd,H,1.67,1.79,36.32,22.39,41.3,1.31
+EqAJ0BaB,Tampines Rovers,Young Lions,H,2.4,1.08,66.53,17.99,15.48,2.18
+Krxir3qp,Albirex Niigata,Tanjong Pagar Utd.,H,2.3,1.19,62.28,19.19,18.53,2.06
+84Io4p63,Balestier Khalsa,Hougang Utd,H,1.97,1.94,40.09,20.94,38.96,1.41
+tbQatsEd,Geylang Int.,Lion City Sailors,H,1.4,2.27,23.09,19.87,57.04,0.89
+23Bf2OzG,Geylang Int.,Tampines Rovers,H,1.23,1.5,31.09,25.38,43.53,1.19
+zH92025S,Hougang Utd,Lion City Sailors,H,1.56,2.2,27.29,20.43,52.27,1.02
+f1jZftTk,Balestier Khalsa,Albirex Niigata,H,1.7,2.24,29.36,20.19,50.45,1.08
+2RgsgKc2,Young Lions,Tanjong Pagar Utd.,H,2.28,1.69,51.37,20.01,28.61,1.74
+pjJR0WG8,Hougang Utd,Young Lions,H,2.22,1.36,56.8,20.17,23.03,1.91
+IHWYbAoL,Tampines Rovers,Tanjong Pagar Utd.,H,2.64,0.92,74.14,15.22,10.64,2.38
+x2D5gl9r,Lion City Sailors,Balestier Khalsa,H,2.61,1.85,54.49,18.42,27.09,1.82
+AFBDiSwe,Albirex Niigata,Geylang Int.,H,1.57,1.42,41.25,24.29,34.47,1.48
+6s5Mk687,Tanjong Pagar Utd.,Geylang Int.,H,1.44,2.02,27.42,21.55,51.03,1.04
+WKd8D90E,Balestier Khalsa,Tampines Rovers,H,1.4,2.18,24.36,20.49,55.14,0.94
+hzoHBmVQ,Young Lions,Lion City Sailors,H,1.39,2.69,17.84,17.04,65.12,0.71
+OIym6Rhl,Albirex Niigata,Hougang Utd,H,1.8,1.19,51.71,23.13,25.16,1.78
+KpVe45N0,Balestier Khalsa,Young Lions,H,2.23,2.11,42.37,19.79,37.84,1.47
+hbT32qhD,Tampines Rovers,Albirex Niigata,H,1.87,1.22,52.59,22.57,24.84,1.8
+2POEKQ7s,Geylang Int.,Hougang Utd,H,1.8,1.27,49.87,23.11,27.02,1.73
+WtYrQnpK,Lion City Sailors,Tanjong Pagar Utd.,H,2.74,1.11,71.47,15.58,12.95,2.3
+OvDNI4xf,Balestier Khalsa,Geylang Int.,H,1.74,2.17,31.42,20.54,48.04,1.15
+W4GVGr76,Young Lions,Albirex Niigata,H,1.51,1.99,29.35,21.67,48.98,1.1
+CEOwFMyJ,Lion City Sailors,Tampines Rovers,H,1.67,1.35,45.08,23.87,31.06,1.59
+2szkMwqn,Hougang Utd,Tanjong Pagar Utd.,H,2.46,1.2,65.01,18.01,16.98,2.13
+b9TcKHDb,Geylang Int.,Young Lions,H,2.05,1.43,51.98,21.3,26.71,1.77
+6ZW5IerB,Tampines Rovers,Hougang Utd,H,2.15,0.92,65.47,19.52,15.01,2.16
+SlLEGZCN,Albirex Niigata,Lion City Sailors,H,1.4,2.19,24.2,20.4,55.4,0.93
+xO6pBDzo,Tanjong Pagar Utd.,Balestier Khalsa,H,2.04,2.52,31.86,18.84,49.3,1.14
+hWlXYGSi,Tanjong Pagar Utd.,Albirex Niigata,H,1.39,2.09,25.37,21.05,53.58,0.97
+QqmuXfc4,Young Lions,Tampines Rovers,H,1.21,1.92,23.93,22.18,53.89,0.94
+MBtlVYRG,Lion City Sailors,Geylang Int.,H,2.01,1.34,52.91,21.59,25.5,1.8
+S8qdTCdT,Hougang Utd,Balestier Khalsa,H,2.33,1.94,47.56,19.67,32.78,1.62
+CtLSNjKj,Young Lions,Hougang Utd,H,1.78,1.69,40.77,22.35,36.88,1.45
+zF6NqYtA,Balestier Khalsa,Lion City Sailors,H,1.57,2.94,18.32,16.09,65.59,0.71
+vmDEofCc,Geylang Int.,Albirex Niigata,H,1.52,1.57,37.05,23.87,39.07,1.35
+8S4VsCBM,Tanjong Pagar Utd.,Tampines Rovers,H,1.1,2.02,20.08,21.2,58.72,0.81
+0x2uWafK,Albirex Niigata,Tampines Rovers,H,1.23,1.42,32.61,25.93,41.46,1.24
+xbNgxjZq,Albirex Niigata,Tampines Rovers,H,1.23,1.42,32.61,25.93,41.46,1.24
+pOQ1zU3d,Hougang Utd,Geylang Int.,H,1.73,1.43,44.81,23.34,31.85,1.58
+Yq7ddBQF,Lion City Sailors,Tanjong Pagar Utd.,H,2.74,1.11,71.47,15.58,12.95,2.3
+QJ3lbXe3,Young Lions,Balestier Khalsa,H,2.16,2.42,35.59,19.11,45.3,1.26
+Sr05fkeS,Tanjong Pagar Utd.,Young Lions,H,1.92,1.95,38.92,21.05,40.02,1.38
+OEoykTIk,Tampines Rovers,Geylang Int.,H,1.92,1.15,55.3,22.18,22.52,1.88
+Ktupm7m2,Lion City Sailors,Hougang Utd,H,2.24,1.12,62.73,19.42,17.85,2.08
+nmXVAAu9,Balestier Khalsa,Albirex Niigata,H,1.7,2.24,29.36,20.19,50.45,1.08
+6yp4h2Ps,Tampines Rovers,Balestier Khalsa,H,2.52,1.66,56.61,18.7,24.69,1.89
+hhrCjtff,Hougang Utd,Albirex Niigata,H,1.68,1.5,42.22,23.38,34.4,1.5
+lKyLlKO6,Geylang Int.,Tanjong Pagar Utd.,H,2.29,1.26,60.5,19.42,20.08,2.01
+MXZSnbgJ,Lion City Sailors,Young Lions,H,2.5,1.28,63.94,18.0,18.06,2.1
+xtIFA1oQ,Tampines Rovers,Young Lions,H,2.4,1.08,66.53,17.99,15.48,2.18
+h6Np5u9m,Albirex Niigata,Tanjong Pagar Utd.,H,2.3,1.19,62.28,19.19,18.53,2.06
+ELBg3Jw0,Geylang Int.,Lion City Sailors,H,1.4,2.27,23.09,19.87,57.04,0.89
+MoF11c8C,Balestier Khalsa,Hougang Utd,H,1.97,1.94,40.09,20.94,38.96,1.41
+ID8AaywP,Tampines Rovers,Lion City Sailors,H,1.75,1.92,35.76,21.63,42.61,1.29
+YPrKJvOt,Geylang Int.,Balestier Khalsa,H,2.17,2.0,43.08,20.17,36.76,1.49
+hSbLHIhg,Albirex Niigata,Young Lions,H,2.06,1.35,53.73,21.26,25.01,1.82
+0h2TFdN5,Tanjong Pagar Utd.,Hougang Utd,H,1.67,1.79,36.32,22.39,41.3,1.31
+M7jxEzhI,Balestier Khalsa,Tanjong Pagar Utd.,H,2.47,1.94,50.11,19.1,30.79,1.69
+UXgpCEMU,Young Lions,Geylang Int.,H,1.55,1.91,31.53,22.04,46.42,1.17
+8bBhGQYo,Hougang Utd,Tampines Rovers,H,1.39,1.43,36.46,25.15,38.39,1.35
+tC90E43b,Lion City Sailors,Albirex Niigata,H,1.97,1.42,50.33,21.87,27.8,1.73
+zwNinCpI,Balestier Khalsa,Geylang Int.,A,2.0,2.17,36.76,20.17,43.08,1.3
+r3QapjFU,Young Lions,Albirex Niigata,A,1.35,2.06,25.01,21.26,53.73,0.96
+MTeA4g0n,Lion City Sailors,Tampines Rovers,A,1.92,1.75,42.61,21.63,35.76,1.49
+fsfI2XUb,Hougang Utd,Tanjong Pagar Utd.,A,1.79,1.67,41.3,22.39,36.32,1.46
+EqAJ0BaB,Young Lions,Tampines Rovers,A,1.08,2.4,15.48,17.99,66.53,0.64
+Krxir3qp,Tanjong Pagar Utd.,Albirex Niigata,A,1.19,2.3,18.53,19.19,62.28,0.75
+84Io4p63,Hougang Utd,Balestier Khalsa,A,1.94,1.97,38.96,20.94,40.09,1.38
+tbQatsEd,Lion City Sailors,Geylang Int.,A,2.27,1.4,57.04,19.87,23.09,1.91
+23Bf2OzG,Tampines Rovers,Geylang Int.,A,1.5,1.23,43.53,25.38,31.09,1.56
+zH92025S,Lion City Sailors,Hougang Utd,A,2.2,1.56,52.27,20.43,27.29,1.77
+f1jZftTk,Albirex Niigata,Balestier Khalsa,A,2.24,1.7,50.45,20.19,29.36,1.72
+2RgsgKc2,Tanjong Pagar Utd.,Young Lions,A,1.69,2.28,28.61,20.01,51.37,1.06
+pjJR0WG8,Young Lions,Hougang Utd,A,1.36,2.22,23.03,20.17,56.8,0.89
+IHWYbAoL,Tanjong Pagar Utd.,Tampines Rovers,A,0.92,2.64,10.64,15.22,74.14,0.47
+x2D5gl9r,Balestier Khalsa,Lion City Sailors,A,1.85,2.61,27.09,18.42,54.49,1.0
+AFBDiSwe,Geylang Int.,Albirex Niigata,A,1.42,1.57,34.47,24.29,41.25,1.28
+6s5Mk687,Geylang Int.,Tanjong Pagar Utd.,A,2.02,1.44,51.03,21.55,27.42,1.75
+WKd8D90E,Tampines Rovers,Balestier Khalsa,A,2.18,1.4,55.14,20.49,24.36,1.86
+hzoHBmVQ,Lion City Sailors,Young Lions,A,2.69,1.39,65.12,17.04,17.84,2.12
+OIym6Rhl,Hougang Utd,Albirex Niigata,A,1.19,1.8,25.16,23.13,51.71,0.99
+KpVe45N0,Young Lions,Balestier Khalsa,A,2.11,2.23,37.84,19.79,42.37,1.33
+hbT32qhD,Albirex Niigata,Tampines Rovers,A,1.22,1.87,24.84,22.57,52.59,0.97
+2POEKQ7s,Hougang Utd,Geylang Int.,A,1.27,1.8,27.02,23.11,49.87,1.04
+WtYrQnpK,Tanjong Pagar Utd.,Lion City Sailors,A,1.11,2.74,12.95,15.58,71.47,0.54
+OvDNI4xf,Geylang Int.,Balestier Khalsa,A,2.17,1.74,48.04,20.54,31.42,1.65
+W4GVGr76,Albirex Niigata,Young Lions,A,1.99,1.51,48.98,21.67,29.35,1.69
+CEOwFMyJ,Tampines Rovers,Lion City Sailors,A,1.35,1.67,31.06,23.87,45.08,1.17
+2szkMwqn,Tanjong Pagar Utd.,Hougang Utd,A,1.2,2.46,16.98,18.01,65.01,0.69
+b9TcKHDb,Young Lions,Geylang Int.,A,1.43,2.05,26.71,21.3,51.98,1.01
+6ZW5IerB,Hougang Utd,Tampines Rovers,A,0.92,2.15,15.01,19.52,65.47,0.65
+SlLEGZCN,Lion City Sailors,Albirex Niigata,A,2.19,1.4,55.4,20.4,24.2,1.87
+xO6pBDzo,Balestier Khalsa,Tanjong Pagar Utd.,A,2.52,2.04,49.3,18.84,31.86,1.67
+hWlXYGSi,Albirex Niigata,Tanjong Pagar Utd.,A,2.09,1.39,53.58,21.05,25.37,1.82
+QqmuXfc4,Tampines Rovers,Young Lions,A,1.92,1.21,53.89,22.18,23.93,1.84
+MBtlVYRG,Geylang Int.,Lion City Sailors,A,1.34,2.01,25.5,21.59,52.91,0.98
+S8qdTCdT,Balestier Khalsa,Hougang Utd,A,1.94,2.33,32.78,19.67,47.56,1.18
+CtLSNjKj,Hougang Utd,Young Lions,A,1.69,1.78,36.88,22.35,40.77,1.33
+zF6NqYtA,Lion City Sailors,Balestier Khalsa,A,2.94,1.57,65.59,16.09,18.32,2.13
+vmDEofCc,Albirex Niigata,Geylang Int.,A,1.57,1.52,39.07,23.87,37.05,1.41
+8S4VsCBM,Tampines Rovers,Tanjong Pagar Utd.,A,2.02,1.1,58.72,21.2,20.08,1.97
+0x2uWafK,Tampines Rovers,Albirex Niigata,A,1.42,1.23,41.46,25.93,32.61,1.5
+xbNgxjZq,Tampines Rovers,Albirex Niigata,A,1.42,1.23,41.46,25.93,32.61,1.5
+pOQ1zU3d,Geylang Int.,Hougang Utd,A,1.43,1.73,31.85,23.34,44.81,1.19
+Yq7ddBQF,Tanjong Pagar Utd.,Lion City Sailors,A,1.11,2.74,12.95,15.58,71.47,0.54
+QJ3lbXe3,Balestier Khalsa,Young Lions,A,2.42,2.16,45.3,19.11,35.59,1.55
+Sr05fkeS,Young Lions,Tanjong Pagar Utd.,A,1.95,1.92,40.02,21.05,38.92,1.41
+OEoykTIk,Geylang Int.,Tampines Rovers,A,1.15,1.92,22.52,22.18,55.3,0.9
+Ktupm7m2,Hougang Utd,Lion City Sailors,A,1.12,2.24,17.85,19.42,62.73,0.73
+nmXVAAu9,Albirex Niigata,Balestier Khalsa,A,2.24,1.7,50.45,20.19,29.36,1.72
+6yp4h2Ps,Balestier Khalsa,Tampines Rovers,A,1.66,2.52,24.69,18.7,56.61,0.93
+hhrCjtff,Albirex Niigata,Hougang Utd,A,1.5,1.68,34.4,23.38,42.22,1.27
+lKyLlKO6,Tanjong Pagar Utd.,Geylang Int.,A,1.26,2.29,20.08,19.42,60.5,0.8
+MXZSnbgJ,Young Lions,Lion City Sailors,A,1.28,2.5,18.06,18.0,63.94,0.72
+xtIFA1oQ,Young Lions,Tampines Rovers,A,1.08,2.4,15.48,17.99,66.53,0.64
+h6Np5u9m,Tanjong Pagar Utd.,Albirex Niigata,A,1.19,2.3,18.53,19.19,62.28,0.75
+ELBg3Jw0,Lion City Sailors,Geylang Int.,A,2.27,1.4,57.04,19.87,23.09,1.91
+MoF11c8C,Hougang Utd,Balestier Khalsa,A,1.94,1.97,38.96,20.94,40.09,1.38
+ID8AaywP,Lion City Sailors,Tampines Rovers,A,1.92,1.75,42.61,21.63,35.76,1.49
+YPrKJvOt,Balestier Khalsa,Geylang Int.,A,2.0,2.17,36.76,20.17,43.08,1.3
+hSbLHIhg,Young Lions,Albirex Niigata,A,1.35,2.06,25.01,21.26,53.73,0.96
+0h2TFdN5,Hougang Utd,Tanjong Pagar Utd.,A,1.79,1.67,41.3,22.39,36.32,1.46
+M7jxEzhI,Tanjong Pagar Utd.,Balestier Khalsa,A,1.94,2.47,30.79,19.1,50.11,1.11
+UXgpCEMU,Geylang Int.,Young Lions,A,1.91,1.55,46.42,22.04,31.53,1.61
+8bBhGQYo,Tampines Rovers,Hougang Utd,A,1.43,1.39,38.39,25.15,36.46,1.4
+tC90E43b,Albirex Niigata,Lion City Sailors,A,1.42,1.97,27.8,21.87,50.33,1.05

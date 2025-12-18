@@ -24,12 +24,6 @@ env/
 Thumbs.db
 
 # ======================
-# Streamlit
-# ======================
-.streamlit/
-streamlit_out/
-
-# ======================
 # Project-specific caches
 # ======================
 .sofascore_stats_cache/
