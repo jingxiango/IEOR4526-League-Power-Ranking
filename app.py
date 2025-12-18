@@ -315,11 +315,11 @@ Each row is a future match for the selected club, with Win/Draw/Loss probabiliti
         xg_line = ""
         if "xg_for" in team_df.columns and "xg_against" in team_df.columns:
             if pd.notna(xg_for) and pd.notna(xg_against):
-                xg_line = f"""
+                xg_line = (f"""
                 <div class="smallmuted">
                     xG {float(xg_for):.2f} – {float(xg_against):.2f}
                 </div>
-                """
+                """)
         # correct home/away ordering (optional but recommended)
         if isinstance(venue, str) and venue.upper() == "A":
             title = f"{opp} vs {selected_team}"
