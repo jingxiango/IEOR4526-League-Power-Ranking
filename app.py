@@ -256,6 +256,8 @@ else:
     selected_team = st.selectbox("Select team", teams, index=0)
 
     team_df = fixtures[fixtures["team"].astype(str) == str(selected_team)].copy()
+
+    # Parse + sort by match_date (assume it exists)
     team_df["match_date"] = pd.to_datetime(team_df["match_date"], errors="coerce")
     team_df = team_df.sort_values("match_date", ascending=True)
 
