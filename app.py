@@ -151,22 +151,27 @@ if page == "Power Ranking":
     for c in ["pts", "Strength Index", "exp_pts_mc", "win_league_pct", "make_acl_pct"]:
         df = safe_num(df, c)
 
-    # Sort priority: win league prob then SPI then current pts
-    sort_cols = [c for c in ["win_league_pct", "spi", "pts"] if c in df.columns]
-    if sort_cols:
-        df = df.sort_values(sort_cols, ascending=[False] * len(sort_cols))
+    # Sort by current league position (table order)
+    if "pts" in df.columns:
+        df = df.sort_values("pts", ascending=False)
+
+    # Add league position (1, 2, 3, ...)
+    df["league_pos"] = range(1, len(df) + 1)
+
 
     # rename to pretty
     df_show = df.rename(
         columns={
+            "league_pos": "Pos",
             "team": "Club",
             "pts": "Current Pts",
-            "spi": "SPI",
-            "exp_pts_mc": "Expected Final Pts (MC)",
+            "spi": "Power Index",
+            "exp_pts_mc": "Expected Final Pts",
             "win_league_pct": "Win League (%)",
             "make_acl_pct": "Make ACL Top 2 (%)",
         }
     ).copy()
+
 
     # convert pct columns to 0-100 if needed
     for c in ["Win League (%)", "Make ACL Top 2 (%)"]:
@@ -175,6 +180,7 @@ if page == "Power Ranking":
 
     # keep a clean column order if present
     preferred = [
+        "Pos",
         "Club",
         "Current Pts",
         "SPI",
@@ -182,9 +188,9 @@ if page == "Power Ranking":
         "Make ACL Top 2 (%)",
         "Win League (%)",
     ]
+
     cols = [c for c in preferred if c in df_show.columns] + [
-        c for c in df_show.columns if c not in preferred
-    ]
+        c for c in df_show.columns if c not in preferred]
     df_show = df_show[cols]
 
     # rounding
