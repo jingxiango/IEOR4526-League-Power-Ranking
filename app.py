@@ -13,7 +13,9 @@ st.set_page_config(page_title="SPL Dashboard", layout="wide")
 st.markdown(
     """
 <style>
-.block-container { padding-top: 1.2rem; padding-bottom: 2rem; max-width: 1200px; }
+header { visibility: hidden; height: 0; }
+
+.block-container { padding-top: 0.2rem; padding-bottom: 2rem; max-width: 1200px; }
 h1, h2, h3 { letter-spacing: -0.02em; }
 
 .section-title { font-size: 22px; font-weight: 800; margin: 6px 0 10px 0; }
@@ -237,7 +239,6 @@ else:
     if "team" not in fixtures.columns:
         st.error("Fixtures file must contain a `team` column (team-opponent rows).")
         st.stop()
-
 
     teams = sorted(fixtures["team"].dropna().astype(str).unique().tolist())
     selected_team = st.selectbox("Select team", teams, index=0)
