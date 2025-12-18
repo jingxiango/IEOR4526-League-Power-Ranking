@@ -18,6 +18,10 @@ header[data-testid="stHeader"] { position: sticky; top: 0; z-index: 999; }
 
 /* Reduce top whitespace */
 div[data-testid="stAppViewContainer"] > .main { padding-top: 0.25rem; }
+/* Prevent bottom-right Streamlit overlay from covering last rows */
+div[data-testid="stAppViewContainer"] .main {
+  padding-bottom: 120px;
+}
 
 .block-container { padding-top: 0.2rem; padding-bottom: 2rem; max-width: 1200px; }
 h1, h2, h3 { letter-spacing: -0.02em; }
