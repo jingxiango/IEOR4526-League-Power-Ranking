@@ -13,7 +13,11 @@ st.set_page_config(page_title="SPL Dashboard", layout="wide")
 st.markdown(
     """
 <style>
-header { visibility: hidden; height: 0; }
+/* Keep header visible so the sidebar toggle exists */
+header[data-testid="stHeader"] { position: sticky; top: 0; z-index: 999; }
+
+/* Reduce top whitespace */
+div[data-testid="stAppViewContainer"] > .main { padding-top: 0.25rem; }
 
 .block-container { padding-top: 0.2rem; padding-bottom: 2rem; max-width: 1200px; }
 h1, h2, h3 { letter-spacing: -0.02em; }
@@ -23,10 +27,7 @@ h1, h2, h3 { letter-spacing: -0.02em; }
 .rowcard { padding: 10px 10px; border-bottom: 1px solid rgba(0,0,0,0.07); }
 .matchname { font-weight: 800; font-size: 14px; }
 
-div[data-testid="stAppViewContainer"] > .main {
-  padding-top: 0.25rem;
-}
-
+/* Sticky sidebar */
 section[data-testid="stSidebar"] > div {
   position: sticky;
   top: 0;
@@ -54,6 +55,7 @@ section[data-testid="stSidebar"] > div {
 """,
     unsafe_allow_html=True,
 )
+
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
