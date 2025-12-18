@@ -23,13 +23,20 @@ h1, h2, h3 { letter-spacing: -0.02em; }
 .rowcard { padding: 10px 10px; border-bottom: 1px solid rgba(0,0,0,0.07); }
 .matchname { font-weight: 800; font-size: 14px; }
 
-/* Sticky sidebar */
-section[data-testid="stSidebar"] {
+/* Sticky sidebar (safe with collapse) */
+section[data-testid="stSidebar"] > div {
   position: sticky;
   top: 0;
   height: 100vh;
   overflow: auto;
 }
+
+/* Make sure collapsed sidebar rail stays visible/clickable */
+section[data-testid="stSidebar"][aria-expanded="false"] {
+  min-width: 3rem;
+  width: 3rem;
+}
+
 
 .probbar {
   width: 180px; height: 14px;
