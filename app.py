@@ -4,7 +4,7 @@ import streamlit as st
 
 st.set_page_config(page_title="SPL Dashboard", layout="wide")
 
-DATA_DIR = "streamlit_out/dashboard_table_csv"  # same folder Spark writes to
+DATA_DIR = "data/dashboard_table_csv"  # same folder Spark writes to
 
 def load_latest_csv(folder):
     files = sorted(glob.glob(f"{folder}/part-*.csv"))
@@ -56,7 +56,7 @@ import glob
 import pandas as pd
 import streamlit as st
 
-FIXTURE_DIR = "streamlit_out/match_level_fixtures"
+FIXTURE_DIR = "data/match_level_fixtures"
 
 @st.cache_data(ttl=2)
 def load_fixtures():
