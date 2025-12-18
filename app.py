@@ -19,11 +19,6 @@ header[data-testid="stHeader"] { position: sticky; top: 0; z-index: 999; }
 /* Reduce top whitespace */
 div[data-testid="stAppViewContainer"] > .main { padding-top: 0.25rem; }
 
-/* Extra bottom space so fixed overlay doesn't cover content */
-div[data-testid="stAppViewContainer"] {
-  padding-bottom: 240px;
-}
-
 .block-container { padding-top: 0.2rem; padding-bottom: 2rem; max-width: 1200px; }
 h1, h2, h3 { letter-spacing: -0.02em; }
 
