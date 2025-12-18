@@ -1,0 +1,335 @@
+season_id,season_label,event_id,home_team,away_team,match_url,match_date,home_expected_goals,away_expected_goals,is_future_fixture
+48772,2023,11041308,Tanjong Pagar Utd.,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-tanjong-pagar-united/NkbsGGn#id:11041308,2023-08-11,1.37,3.4,0
+48772,2023,11041309,Albirex Niigata,Lion City Sailors,https://www.sofascore.com/football/match/albirex-niigata-singapore-lion-city-sailors/QkbsGGn#id:11041309,2023-07-16,2.2,1.37,0
+48772,2023,11041310,Balestier Khalsa,Tampines Rovers,https://www.sofascore.com/football/match/tampines-rovers-balestier-khalsa/OkbsTkb#id:11041310,2023-08-26,,,0
+48772,2023,11041311,Geylang Int.,Young Lions,https://www.sofascore.com/football/match/young-lions-geylang-international/UkbsHGn#id:11041311,2023-08-19,2.17,0.72,0
+48772,2023,11041312,Hougang Utd,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-hougang-united/IGnsKGn#id:11041312,2023-08-04,1.37,0.53,0
+48772,2023,11041313,Tampines Rovers,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-tampines-rovers/TkbsKGn#id:11041313,2023-08-18,1.95,0.87,0
+48772,2023,11041314,Lion City Sailors,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-lion-city-sailors/QkbsUkb#id:11041314,2023-08-27,,,0
+48772,2023,11041316,Lion City Sailors,Balestier Khalsa,https://www.sofascore.com/football/match/lion-city-sailors-balestier-khalsa/OkbsQkb#id:11041316,2023-07-31,4.83,1.74,0
+48772,2023,11041317,Albirex Niigata,Young Lions,https://www.sofascore.com/football/match/young-lions-albirex-niigata-singapore/GGnsHGn#id:11041317,2023-07-22,5.54,0.14,0
+48772,2023,11041318,Geylang Int.,Balestier Khalsa,https://www.sofascore.com/football/match/geylang-international-balestier-khalsa/OkbsUkb#id:11041318,2023-08-12,0.88,3.69,0
+48772,2023,11041320,Albirex Niigata,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-albirex-niigata-singapore/GGnsIGn#id:11041320,2023-08-27,,,0
+48772,2023,11041321,Tanjong Pagar Utd.,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-tanjong-pagar-united/NkbsKGn#id:11041321,2023-08-26,,,0
+48772,2023,11041322,Lion City Sailors,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-lion-city-sailors/QkbsKGn#id:11041322,2023-07-11,2.27,1.65,0
+48772,2023,11041323,Geylang Int.,Tampines Rovers,https://www.sofascore.com/football/match/geylang-international-tampines-rovers/TkbsUkb#id:11041323,2023-07-02,0.64,1.98,0
+48772,2023,11041324,Tanjong Pagar Utd.,Lion City Sailors,https://www.sofascore.com/football/match/lion-city-sailors-tanjong-pagar-united/NkbsQkb#id:11041324,2023-07-01,0.36,4.88,0
+48772,2023,11041325,Hougang Utd,Balestier Khalsa,https://www.sofascore.com/football/match/hougang-united-balestier-khalsa/OkbsIGn#id:11041325,2023-07-02,3.13,2.23,0
+48772,2023,11041326,Young Lions,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-young-lions/HGnsKGn#id:11041326,2023-08-12,1.58,2.19,0
+48772,2023,11041327,Geylang Int.,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-geylang-international/UkbsKGn#id:11041327,2023-06-28,2.52,2.32,0
+48772,2023,11041328,Tampines Rovers,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-tampines-rovers/TkbsGGn#id:11041328,2023-06-27,1.71,1.14,0
+48772,2023,11041329,DPMM,Young Lions,https://www.sofascore.com/football/match/brunei-dpmm-fc-young-lions/HGnsKGn#id:11041329,2023-06-24,1.64,0.88,0
+48772,2023,11041330,Young Lions,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-young-lions/HGnsIGn#id:11041330,2023-07-29,3.41,3.27,0
+48772,2023,11041331,Lion City Sailors,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-lion-city-sailors/QkbsIGn#id:11041331,2023-06-25,3.28,0.0,0
+48772,2023,11041332,Balestier Khalsa,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-balestier-khalsa/OkbsIGn#id:11041332,2023-07-21,2.01,1.64,0
+48772,2023,11041333,Hougang Utd,Lion City Sailors,https://www.sofascore.com/football/match/hougang-united-lion-city-sailors/QkbsIGn#id:11041333,2023-08-13,0.48,4.86,0
+48772,2023,11041334,Tampines Rovers,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/tampines-rovers-tanjong-pagar-united/NkbsTkb#id:11041334,2023-07-11,2.33,0.52,0
+48772,2023,11041336,Lion City Sailors,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/lion-city-sailors-tanjong-pagar-united/NkbsQkb#id:11041336,2023-07-20,3.93,2.19,0
+48772,2023,11041337,Tampines Rovers,Lion City Sailors,https://www.sofascore.com/football/match/tampines-rovers-lion-city-sailors/QkbsTkb#id:11041337,2023-08-04,2.73,2.94,0
+48772,2023,11041338,Tampines Rovers,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-tampines-rovers/TkbsUkb#id:11041338,2023-07-22,2.57,1.91,0
+48772,2023,11041339,DPMM,Geylang Int.,https://www.sofascore.com/football/match/brunei-dpmm-fc-geylang-international/UkbsKGn#id:11041339,2023-07-28,2.38,1.84,0
+48772,2023,11041340,Tanjong Pagar Utd.,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-tanjong-pagar-united/NkbsUkb#id:11041340,2023-07-15,1.91,0.84,0
+48772,2023,11041341,DPMM,Albirex Niigata,https://www.sofascore.com/football/match/brunei-dpmm-fc-albirex-niigata-singapore/GGnsKGn#id:11041341,2023-06-11,0.66,3.08,0
+48772,2023,11041342,Balestier Khalsa,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-balestier-khalsa/OkbsGGn#id:11041342,2023-08-20,1.48,2.74,0
+48772,2023,11041343,Balestier Khalsa,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-balestier-khalsa/OkbsUkb#id:11041343,2023-06-23,2.93,1.86,0
+48772,2023,11041344,Geylang Int.,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-geylang-international/UkbsGGn#id:11041344,2023-08-03,0.9,3.54,0
+48772,2023,11041345,Geylang Int.,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-geylang-international/UkbsIGn#id:11041345,2023-07-12,0.63,1.49,0
+48772,2023,11041346,DPMM,Albirex Niigata,https://www.sofascore.com/football/match/brunei-dpmm-fc-albirex-niigata-singapore/GGnsKGn#id:11041346,2023-07-08,0.84,2.72,0
+48772,2023,11041347,Lion City Sailors,Young Lions,https://www.sofascore.com/football/match/young-lions-lion-city-sailors/QkbsHGn#id:11041347,2023-06-10,3.01,1.13,0
+48772,2023,11041349,Hougang Utd,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/hougang-united-tanjong-pagar-united/NkbsIGn#id:11041349,2023-08-19,2.73,1.12,0
+48772,2023,11041350,Albirex Niigata,Tampines Rovers,https://www.sofascore.com/football/match/albirex-niigata-singapore-tampines-rovers/TkbsGGn#id:11041350,2023-07-28,2.42,1.56,0
+48772,2023,11041351,Young Lions,Tampines Rovers,https://www.sofascore.com/football/match/young-lions-tampines-rovers/TkbsHGn#id:11041351,2023-07-15,1.69,2.39,0
+48772,2023,11041352,Hougang Utd,Tampines Rovers,https://www.sofascore.com/football/match/hougang-united-tampines-rovers/TkbsIGn#id:11041352,2023-07-06,2.41,1.24,0
+48772,2023,11041353,Balestier Khalsa,Young Lions,https://www.sofascore.com/football/match/young-lions-balestier-khalsa/OkbsHGn#id:11041353,2023-07-12,2.9,2.01,0
+48772,2023,11041354,Tanjong Pagar Utd.,Young Lions,https://www.sofascore.com/football/match/young-lions-tanjong-pagar-united/NkbsHGn#id:11041354,2023-08-05,2.95,1.68,0
+48772,2023,11041355,DPMM,Hougang Utd,https://www.sofascore.com/football/match/brunei-dpmm-fc-hougang-united/IGnsKGn#id:11041355,2023-06-07,1.24,2.65,0
+48772,2023,11041356,Young Lions,Lion City Sailors,https://www.sofascore.com/football/match/young-lions-lion-city-sailors/QkbsHGn#id:11041356,2023-07-07,0.99,3.52,0
+48772,2023,11041357,DPMM,Balestier Khalsa,https://www.sofascore.com/football/match/brunei-dpmm-fc-balestier-khalsa/OkbsKGn#id:11041357,2023-07-16,1.32,4.08,0
+48772,2023,11041358,Tanjong Pagar Utd.,Balestier Khalsa,https://www.sofascore.com/football/match/balestier-khalsa-tanjong-pagar-united/NkbsOkb#id:11041358,2023-07-06,2.62,2.11,0
+48772,2023,11041359,Balestier Khalsa,Lion City Sailors,https://www.sofascore.com/football/match/lion-city-sailors-balestier-khalsa/OkbsQkb#id:11041359,2023-06-01,2.04,1.36,0
+48772,2023,11041360,Hougang Utd,Young Lions,https://www.sofascore.com/football/match/hougang-united-young-lions/HGnsIGn#id:11041360,2023-06-03,1.4,1.65,0
+48772,2023,11041361,Geylang Int.,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/geylang-international-tanjong-pagar-united/NkbsUkb#id:11041361,2023-05-21,3.67,0.88,0
+48772,2023,11041362,Albirex Niigata,Balestier Khalsa,https://www.sofascore.com/football/match/albirex-niigata-singapore-balestier-khalsa/OkbsGGn#id:11041362,2023-05-26,2.98,1.4,0
+48772,2023,11041363,Balestier Khalsa,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-balestier-khalsa/OkbsKGn#id:11041363,2023-05-20,1.26,1.8,0
+48772,2023,11041364,DPMM,Tampines Rovers,https://www.sofascore.com/football/match/brunei-dpmm-fc-tampines-rovers/TkbsKGn#id:11041364,2023-05-28,0.5,1.53,0
+48772,2023,11041365,Lion City Sailors,Tampines Rovers,https://www.sofascore.com/football/match/tampines-rovers-lion-city-sailors/QkbsTkb#id:11041365,2023-06-07,3.49,0.18,0
+48772,2023,11041366,Young Lions,Albirex Niigata,https://www.sofascore.com/football/match/young-lions-albirex-niigata-singapore/GGnsHGn#id:11041366,2023-07-01,1.66,1.89,0
+48772,2023,11041367,Young Lions,Geylang Int.,https://www.sofascore.com/football/match/young-lions-geylang-international/UkbsHGn#id:11041367,2023-05-27,1.38,2.05,0
+48772,2023,11041368,Tampines Rovers,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/tampines-rovers-tanjong-pagar-united/NkbsTkb#id:11041368,2023-05-14,5.23,1.42,0
+48772,2023,11041369,DPMM,Lion City Sailors,https://www.sofascore.com/football/match/brunei-dpmm-fc-lion-city-sailors/QkbsKGn#id:11041369,2023-05-13,2.07,1.9,0
+48772,2023,11041370,Hougang Utd,Geylang Int.,https://www.sofascore.com/football/match/hougang-united-geylang-international/UkbsIGn#id:11041370,2023-05-12,1.65,1.71,0
+48772,2023,11041371,Tampines Rovers,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-tampines-rovers/TkbsKGn#id:11041371,2023-04-20,1.11,1.72,0
+48772,2023,11041372,Hougang Utd,Tampines Rovers,https://www.sofascore.com/football/match/hougang-united-tampines-rovers/TkbsIGn#id:11041372,2023-04-16,1.36,4.48,0
+48772,2023,11041373,Geylang Int.,Balestier Khalsa,https://www.sofascore.com/football/match/geylang-international-balestier-khalsa/OkbsUkb#id:11041373,2023-04-12,2.89,0.78,0
+48772,2023,11041374,Young Lions,Lion City Sailors,https://www.sofascore.com/football/match/young-lions-lion-city-sailors/QkbsHGn#id:11041374,2023-04-15,1.06,2.32,0
+48772,2023,11041375,Hougang Utd,Lion City Sailors,https://www.sofascore.com/football/match/hougang-united-lion-city-sailors/QkbsIGn#id:11041375,2023-04-10,1.74,2.13,0
+48772,2023,11041376,Tampines Rovers,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-tampines-rovers/TkbsIGn#id:11041376,2023-06-10,2.41,0.66,0
+48772,2023,11041377,Young Lions,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-young-lions/HGnsKGn#id:11041377,2023-04-11,2.3,2.1,0
+48772,2023,11041378,Albirex Niigata,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/albirex-niigata-singapore-tanjong-pagar-united/NkbsGGn#id:11041378,2023-06-24,2.81,0.53,0
+48772,2023,11041379,Tanjong Pagar Utd.,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-tanjong-pagar-united/NkbsIGn#id:11041379,2023-04-06,1.63,1.56,0
+48772,2023,11041380,Hougang Utd,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-hougang-united/IGnsKGn#id:11041380,2023-03-31,1.91,0.93,0
+48772,2023,11041381,Tampines Rovers,Lion City Sailors,https://www.sofascore.com/football/match/tampines-rovers-lion-city-sailors/QkbsTkb#id:11041381,2023-03-31,2.4,1.09,0
+48772,2023,11041382,Balestier Khalsa,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-balestier-khalsa/OkbsGGn#id:11041382,2023-04-05,0.87,4.57,0
+48772,2023,11041383,Geylang Int.,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-geylang-international/UkbsGGn#id:11041383,2023-04-01,0.56,1.92,0
+48772,2023,11041384,Young Lions,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/young-lions-tanjong-pagar-united/NkbsHGn#id:11041384,2023-06-06,1.09,2.89,0
+48772,2023,11041385,Albirex Niigata,Tampines Rovers,https://www.sofascore.com/football/match/albirex-niigata-singapore-tampines-rovers/TkbsGGn#id:11041385,2023-03-19,0.59,0.94,0
+48772,2023,11041386,Balestier Khalsa,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/balestier-khalsa-tanjong-pagar-united/NkbsOkb#id:11041386,2023-06-11,3.92,3.79,0
+48772,2023,11041387,Albirex Niigata,Geylang Int.,https://www.sofascore.com/football/match/albirex-niigata-singapore-geylang-international/UkbsGGn#id:11041387,2023-06-06,2.12,0.67,0
+48772,2023,11041388,Tanjong Pagar Utd.,Young Lions,https://www.sofascore.com/football/match/young-lions-tanjong-pagar-united/NkbsHGn#id:11041388,2023-04-01,1.95,0.47,0
+48772,2023,11041389,Lion City Sailors,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-lion-city-sailors/QkbsGGn#id:11041389,2023-05-21,2.9,2.64,0
+48772,2023,11041390,Lion City Sailors,Balestier Khalsa,https://www.sofascore.com/football/match/lion-city-sailors-balestier-khalsa/OkbsQkb#id:11041390,2023-03-18,3.25,1.55,0
+48772,2023,11041391,Tanjong Pagar Utd.,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-tanjong-pagar-united/NkbsIGn#id:11041391,2023-05-28,0.77,2.55,0
+48772,2023,11041392,DPMM,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/brunei-dpmm-fc-tanjong-pagar-united/NkbsKGn#id:11041392,2023-05-07,3.27,0.76,0
+48772,2023,11041393,Lion City Sailors,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-lion-city-sailors/QkbsUkb#id:11041393,2023-03-15,2.22,0.79,0
+48772,2023,11041394,Hougang Utd,Albirex Niigata,https://www.sofascore.com/football/match/hougang-united-albirex-niigata-singapore/GGnsIGn#id:11041394,2023-05-06,0.51,2.1,0
+48772,2023,11041395,Albirex Niigata,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-albirex-niigata-singapore/GGnsKGn#id:11041395,2023-04-15,3.34,0.84,0
+48772,2023,11041396,Young Lions,Balestier Khalsa,https://www.sofascore.com/football/match/young-lions-balestier-khalsa/OkbsHGn#id:11041396,2023-04-08,0.56,0.84,0
+48772,2023,11041398,Tampines Rovers,Young Lions,https://www.sofascore.com/football/match/young-lions-tampines-rovers/TkbsHGn#id:11041398,2023-05-20,2.76,0.6,0
+48772,2023,11041399,DPMM,Balestier Khalsa,https://www.sofascore.com/football/match/brunei-dpmm-fc-balestier-khalsa/OkbsKGn#id:11041399,2023-03-10,1.65,1.79,0
+48772,2023,11041400,Geylang Int.,Lion City Sailors,https://www.sofascore.com/football/match/geylang-international-lion-city-sailors/QkbsUkb#id:11041400,2023-05-07,1.16,3.67,0
+48772,2023,11041401,Tanjong Pagar Utd.,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-tanjong-pagar-united/NkbsGGn#id:11041401,2023-04-10,0.39,1.84,0
+48772,2023,11041402,Tampines Rovers,Balestier Khalsa,https://www.sofascore.com/football/match/tampines-rovers-balestier-khalsa/OkbsTkb#id:11041402,2023-05-05,2.81,2.76,0
+48772,2023,11041403,Albirex Niigata,Lion City Sailors,https://www.sofascore.com/football/match/albirex-niigata-singapore-lion-city-sailors/QkbsGGn#id:11041403,2023-03-09,1.82,0.9,0
+48772,2023,11041404,Tanjong Pagar Utd.,Balestier Khalsa,https://www.sofascore.com/football/match/balestier-khalsa-tanjong-pagar-united/NkbsOkb#id:11041404,2023-04-16,1.58,1.9,0
+48772,2023,11041405,Lion City Sailors,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-lion-city-sailors/QkbsKGn#id:11041405,2023-03-03,1.75,1.7,0
+48772,2023,11041406,Young Lions,Tampines Rovers,https://www.sofascore.com/football/match/young-lions-tampines-rovers/TkbsHGn#id:11041406,2023-03-09,0.1,3.8,0
+48772,2023,11041407,Balestier Khalsa,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-balestier-khalsa/OkbsIGn#id:11041407,2023-02-26,0.94,1.7,0
+48772,2023,11041408,Young Lions,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-young-lions/HGnsIGn#id:11041408,2023-03-18,1.29,0.7,0
+48772,2023,11041409,DPMM,Geylang Int.,https://www.sofascore.com/football/match/brunei-dpmm-fc-geylang-international/UkbsKGn#id:11041409,2023-03-19,1.77,2.3,0
+48772,2023,11041410,Albirex Niigata,Young Lions,https://www.sofascore.com/football/match/young-lions-albirex-niigata-singapore/GGnsHGn#id:11041410,2023-02-25,2.35,0.26,0
+48772,2023,11041411,Lion City Sailors,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/lion-city-sailors-tanjong-pagar-united/NkbsQkb#id:11041411,2023-02-24,1.95,1.66,0
+48772,2023,11041412,Tampines Rovers,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-tampines-rovers/TkbsUkb#id:11041412,2023-02-25,0.57,1.0,0
+48772,2023,11041416,Tanjong Pagar Utd.,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-tanjong-pagar-united/NkbsUkb#id:11041416,2023-03-10,2.22,0.88,0
+48772,2023,11041417,Balestier Khalsa,Young Lions,https://www.sofascore.com/football/match/young-lions-balestier-khalsa/OkbsHGn#id:11041417,2023-03-04,2.69,1.31,0
+48772,2023,11041420,Albirex Niigata,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-albirex-niigata-singapore/GGnsIGn#id:11041420,2023-03-15,2.07,0.26,0
+48772,2023,11041426,DPMM,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/brunei-dpmm-fc-tanjong-pagar-united/NkbsKGn#id:11041426,2023-03-14,2.14,1.57,0
+48772,2023,11041428,Balestier Khalsa,Tampines Rovers,https://www.sofascore.com/football/match/tampines-rovers-balestier-khalsa/OkbsTkb#id:11041428,2023-03-14,1.23,2.59,0
+48772,2023,11041431,Geylang Int.,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-geylang-international/UkbsIGn#id:11041431,2023-03-05,1.54,2.49,0
+48772,2023,11041432,Tanjong Pagar Utd.,Tampines Rovers,https://www.sofascore.com/football/match/tampines-rovers-tanjong-pagar-united/NkbsTkb#id:11041432,2023-03-03,0.21,1.27,0
+48772,2023,11041433,Geylang Int.,Young Lions,https://www.sofascore.com/football/match/young-lions-geylang-international/UkbsHGn#id:11041433,2023-02-28,3.21,0.72,0
+48772,2023,11557825,Lion City Sailors,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-lion-city-sailors/QkbsUkb#id:11557825,2023-09-16,2.38,1.3,0
+48772,2023,11557830,Tanjong Pagar Utd.,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-tanjong-pagar-united/NkbsKGn#id:11557830,2023-09-15,1.34,2.06,0
+48772,2023,11561284,Balestier Khalsa,Tampines Rovers,https://www.sofascore.com/football/match/tampines-rovers-balestier-khalsa/OkbsTkb#id:11561284,2023-09-15,1.95,3.91,0
+48772,2023,11561285,Albirex Niigata,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-albirex-niigata-singapore/GGnsIGn#id:11561285,2023-09-16,3.47,0.45,0
+59708,2024,12246910,Tampines Rovers,Lion City Sailors,https://www.sofascore.com/football/match/tampines-rovers-lion-city-sailors/QkbsTkb#id:12246910,2025-05-24,2.23,0.97,0
+59708,2024,12246916,Balestier Khalsa,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-balestier-khalsa/OkbsGGn#id:12246916,2025-05-25,1.83,0.64,0
+59708,2024,12246917,Tanjong Pagar Utd.,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-tanjong-pagar-united/NkbsUkb#id:12246917,2025-05-25,2.62,1.89,0
+59708,2024,12246922,Balestier Khalsa,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-balestier-khalsa/OkbsIGn#id:12246922,2025-04-24,2.51,1.05,0
+59708,2024,12246924,Hougang Utd,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-hougang-united/IGnsKGn#id:12246924,2025-05-24,3.01,2.04,0
+59708,2024,12246925,Albirex Niigata,Lion City Sailors,https://www.sofascore.com/football/match/albirex-niigata-singapore-lion-city-sailors/QkbsGGn#id:12246925,2025-04-25,0.22,2.7,0
+59708,2024,12246929,Tampines Rovers,Balestier Khalsa,https://www.sofascore.com/football/match/tampines-rovers-balestier-khalsa/OkbsTkb#id:12246929,2025-04-20,,,0
+59708,2024,12246932,DPMM,Albirex Niigata,https://www.sofascore.com/football/match/brunei-dpmm-fc-albirex-niigata-singapore/GGnsKGn#id:12246932,2025-04-19,1.14,1.97,0
+59708,2024,12246933,Tanjong Pagar Utd.,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-tanjong-pagar-united/NkbsIGn#id:12246933,2025-04-20,,,0
+59708,2024,12246934,Young Lions,Geylang Int.,https://www.sofascore.com/football/match/young-lions-geylang-international/UkbsHGn#id:12246934,2025-04-19,,,0
+59708,2024,12246935,Albirex Niigata,Young Lions,https://www.sofascore.com/football/match/young-lions-albirex-niigata-singapore/GGnsHGn#id:12246935,2025-04-13,2.38,0.93,0
+59708,2024,12246936,Lion City Sailors,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-lion-city-sailors/QkbsKGn#id:12246936,2025-04-12,0.82,0.63,0
+59708,2024,12246939,Tanjong Pagar Utd.,Tampines Rovers,https://www.sofascore.com/football/match/tampines-rovers-tanjong-pagar-united/NkbsTkb#id:12246939,2025-04-11,0.18,3.11,0
+59708,2024,12246940,Balestier Khalsa,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/balestier-khalsa-tanjong-pagar-united/NkbsOkb#id:12246940,2025-04-05,2.06,0.67,0
+59708,2024,12246941,Geylang Int.,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-geylang-international/UkbsIGn#id:12246941,2025-04-11,2.46,2.12,0
+59708,2024,12246942,Hougang Utd,Albirex Niigata,https://www.sofascore.com/football/match/hougang-united-albirex-niigata-singapore/GGnsIGn#id:12246942,2025-04-05,0.59,0.89,0
+59708,2024,12246943,Young Lions,Lion City Sailors,https://www.sofascore.com/football/match/young-lions-lion-city-sailors/QkbsHGn#id:12246943,2025-04-06,0.0,5.82,0
+59708,2024,12246944,Young Lions,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-young-lions/HGnsKGn#id:12246944,2025-03-08,0.97,1.88,0
+59708,2024,12246945,Geylang Int.,Balestier Khalsa,https://www.sofascore.com/football/match/geylang-international-balestier-khalsa/OkbsUkb#id:12246945,2025-03-07,1.63,1.01,0
+59708,2024,12246947,Geylang Int.,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/geylang-international-tanjong-pagar-united/NkbsUkb#id:12246947,2025-02-27,2.52,0.7,0
+59708,2024,12246948,Tampines Rovers,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-tampines-rovers/TkbsUkb#id:12246948,2025-04-04,2.41,0.43,0
+59708,2024,12246949,Hougang Utd,Lion City Sailors,https://www.sofascore.com/football/match/hougang-united-lion-city-sailors/QkbsIGn#id:12246949,2025-03-09,1.27,1.76,0
+59708,2024,12246950,Albirex Niigata,Tampines Rovers,https://www.sofascore.com/football/match/albirex-niigata-singapore-tampines-rovers/TkbsGGn#id:12246950,2025-03-09,0.17,2.67,0
+59708,2024,12246951,Albirex Niigata,Balestier Khalsa,https://www.sofascore.com/football/match/albirex-niigata-singapore-balestier-khalsa/OkbsGGn#id:12246951,2025-02-27,2.11,1.28,0
+59708,2024,12246953,Lion City Sailors,Tampines Rovers,https://www.sofascore.com/football/match/tampines-rovers-lion-city-sailors/QkbsTkb#id:12246953,2025-02-26,1.01,1.33,0
+59708,2024,12246954,DPMM,Hougang Utd,https://www.sofascore.com/football/match/brunei-dpmm-fc-hougang-united/IGnsKGn#id:12246954,2025-02-26,2.21,3.15,0
+59708,2024,12246955,Tanjong Pagar Utd.,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-tanjong-pagar-united/NkbsGGn#id:12246955,2025-02-21,2.1,1.62,0
+59708,2024,12246956,Hougang Utd,Young Lions,https://www.sofascore.com/football/match/hougang-united-young-lions/HGnsIGn#id:12246956,2025-02-22,2.6,2.32,0
+59708,2024,12246958,Albirex Niigata,Geylang Int.,https://www.sofascore.com/football/match/albirex-niigata-singapore-geylang-international/UkbsGGn#id:12246958,2025-02-09,1.71,0.65,0
+59708,2024,12246959,Balestier Khalsa,Lion City Sailors,https://www.sofascore.com/football/match/lion-city-sailors-balestier-khalsa/OkbsQkb#id:12246959,2025-02-23,1.25,4.08,0
+59708,2024,12246960,Tampines Rovers,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-tampines-rovers/TkbsKGn#id:12246960,2025-02-23,1.8,0.16,0
+59708,2024,12246961,Lion City Sailors,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/lion-city-sailors-tanjong-pagar-united/NkbsQkb#id:12246961,2025-02-09,5.51,0.41,0
+59708,2024,12246962,Geylang Int.,Lion City Sailors,https://www.sofascore.com/football/match/geylang-international-lion-city-sailors/QkbsUkb#id:12246962,2025-01-26,0.52,2.28,0
+59708,2024,12246963,Balestier Khalsa,Young Lions,https://www.sofascore.com/football/match/young-lions-balestier-khalsa/OkbsHGn#id:12246963,2025-01-25,2.82,1.37,0
+59708,2024,12246964,DPMM,Geylang Int.,https://www.sofascore.com/football/match/brunei-dpmm-fc-geylang-international/UkbsKGn#id:12246964,2025-01-18,1.77,3.2,0
+59708,2024,12246965,Tanjong Pagar Utd.,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-tanjong-pagar-united/NkbsKGn#id:12246965,2025-01-26,1.98,1.27,0
+59708,2024,12246966,Young Lions,Tampines Rovers,https://www.sofascore.com/football/match/young-lions-tampines-rovers/TkbsHGn#id:12246966,2025-02-08,1.17,3.05,0
+59708,2024,12246967,Young Lions,Albirex Niigata,https://www.sofascore.com/football/match/young-lions-albirex-niigata-singapore/GGnsHGn#id:12246967,2024-11-23,0.09,1.68,0
+59708,2024,12246969,Young Lions,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/young-lions-tanjong-pagar-united/NkbsHGn#id:12246969,2025-01-18,1.53,0.97,0
+59708,2024,12246970,Hougang Utd,Balestier Khalsa,https://www.sofascore.com/football/match/hougang-united-balestier-khalsa/OkbsIGn#id:12246970,2025-01-19,1.39,1.39,0
+59708,2024,12246971,DPMM,Balestier Khalsa,https://www.sofascore.com/football/match/brunei-dpmm-fc-balestier-khalsa/OkbsKGn#id:12246971,2025-02-07,1.57,3.81,0
+59708,2024,12246972,Lion City Sailors,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-lion-city-sailors/QkbsGGn#id:12246972,2025-01-17,2.48,0.61,0
+59708,2024,12246973,Tampines Rovers,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/tampines-rovers-tanjong-pagar-united/NkbsTkb#id:12246973,2024-11-22,3.66,0.38,0
+59708,2024,12246974,Tampines Rovers,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-tampines-rovers/TkbsIGn#id:12246974,2025-01-25,1.53,1.69,0
+59708,2024,12246975,Hougang Utd,Geylang Int.,https://www.sofascore.com/football/match/hougang-united-geylang-international/UkbsIGn#id:12246975,2024-11-24,0.82,1.32,0
+59708,2024,12246976,Geylang Int.,Young Lions,https://www.sofascore.com/football/match/young-lions-geylang-international/UkbsHGn#id:12246976,2024-11-03,2.63,0.26,0
+59708,2024,12246978,DPMM,Lion City Sailors,https://www.sofascore.com/football/match/brunei-dpmm-fc-lion-city-sailors/QkbsKGn#id:12246978,2025-01-13,0.39,1.71,0
+59708,2024,12246979,Geylang Int.,Tampines Rovers,https://www.sofascore.com/football/match/geylang-international-tampines-rovers/TkbsUkb#id:12246979,2024-10-29,0.27,1.28,0
+59708,2024,12246980,Tampines Rovers,Balestier Khalsa,https://www.sofascore.com/football/match/tampines-rovers-balestier-khalsa/OkbsTkb#id:12246980,2024-11-02,1.84,0.87,0
+59708,2024,12246981,Albirex Niigata,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-albirex-niigata-singapore/GGnsKGn#id:12246981,2024-11-02,2.32,0.53,0
+59708,2024,12246982,Lion City Sailors,Young Lions,https://www.sofascore.com/football/match/young-lions-lion-city-sailors/QkbsHGn#id:12246982,2024-10-30,,,0
+59708,2024,12246983,Tanjong Pagar Utd.,Balestier Khalsa,https://www.sofascore.com/football/match/balestier-khalsa-tanjong-pagar-united/NkbsOkb#id:12246983,2024-10-28,0.76,5.43,0
+59708,2024,12246985,Albirex Niigata,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-albirex-niigata-singapore/GGnsIGn#id:12246985,2024-10-29,2.72,0.39,0
+59708,2024,12246986,Hougang Utd,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/hougang-united-tanjong-pagar-united/NkbsIGn#id:12246986,2024-11-01,4.11,0.6,0
+59708,2024,12246987,Lion City Sailors,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-lion-city-sailors/QkbsIGn#id:12246987,2024-10-19,2.4,1.53,0
+59708,2024,12246988,Balestier Khalsa,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-balestier-khalsa/OkbsUkb#id:12246988,2024-10-20,2.11,1.25,0
+59708,2024,12246989,DPMM,Young Lions,https://www.sofascore.com/football/match/brunei-dpmm-fc-young-lions/HGnsKGn#id:12246989,2024-10-18,1.25,2.85,0
+59708,2024,12246990,Tampines Rovers,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-tampines-rovers/TkbsGGn#id:12246990,2024-10-19,2.32,1.55,0
+59708,2024,12246991,Tampines Rovers,Lion City Sailors,https://www.sofascore.com/football/match/tampines-rovers-lion-city-sailors/QkbsTkb#id:12246991,2024-09-29,2.43,0.42,0
+59708,2024,12246992,Balestier Khalsa,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-balestier-khalsa/OkbsGGn#id:12246992,2024-09-28,1.69,1.45,0
+59708,2024,12246993,Albirex Niigata,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/albirex-niigata-singapore-tanjong-pagar-united/NkbsGGn#id:12246993,2024-09-20,1.93,1.12,0
+59708,2024,12246994,Lion City Sailors,Balestier Khalsa,https://www.sofascore.com/football/match/lion-city-sailors-balestier-khalsa/OkbsQkb#id:12246994,2024-09-22,1.3,0.88,0
+59708,2024,12246995,Tanjong Pagar Utd.,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-tanjong-pagar-united/NkbsUkb#id:12246995,2024-09-28,1.14,3.31,0
+59708,2024,12246996,DPMM,Tampines Rovers,https://www.sofascore.com/football/match/brunei-dpmm-fc-tampines-rovers/TkbsKGn#id:12246996,2024-09-22,0.72,3.0,0
+59708,2024,12246997,Hougang Utd,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-hougang-united/IGnsKGn#id:12246997,2024-09-27,1.25,2.01,0
+59708,2024,12246998,DPMM,Balestier Khalsa,https://www.sofascore.com/football/match/brunei-dpmm-fc-balestier-khalsa/OkbsKGn#id:12246998,2024-09-13,1.32,3.45,0
+59708,2024,12246999,Geylang Int.,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-geylang-international/UkbsGGn#id:12246999,2024-09-15,1.26,0.76,0
+59708,2024,12247000,Tanjong Pagar Utd.,Lion City Sailors,https://www.sofascore.com/football/match/lion-city-sailors-tanjong-pagar-united/NkbsQkb#id:12247000,2024-09-14,0.85,3.83,0
+59708,2024,12247001,Young Lions,Balestier Khalsa,https://www.sofascore.com/football/match/young-lions-balestier-khalsa/OkbsHGn#id:12247001,2024-08-31,2.05,5.3,0
+59708,2024,12247002,DPMM,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/brunei-dpmm-fc-tanjong-pagar-united/NkbsKGn#id:12247002,2024-08-31,1.99,1.71,0
+59708,2024,12247003,Lion City Sailors,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-lion-city-sailors/QkbsUkb#id:12247003,2024-08-30,1.79,2.24,0
+59708,2024,12247004,Tampines Rovers,Young Lions,https://www.sofascore.com/football/match/young-lions-tampines-rovers/TkbsHGn#id:12247004,2024-09-14,1.94,1.59,0
+59708,2024,12247005,Young Lions,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-young-lions/HGnsIGn#id:12247005,2024-09-21,2.37,1.56,0
+59708,2024,12247006,Balestier Khalsa,Tampines Rovers,https://www.sofascore.com/football/match/tampines-rovers-balestier-khalsa/OkbsTkb#id:12247006,2024-08-11,1.14,0.76,0
+59708,2024,12247008,Hougang Utd,Tampines Rovers,https://www.sofascore.com/football/match/hougang-united-tampines-rovers/TkbsIGn#id:12247008,2024-08-30,1.27,1.87,0
+59708,2024,12247012,Lion City Sailors,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-lion-city-sailors/QkbsKGn#id:12247012,2024-08-03,4.11,0.82,0
+59708,2024,12247013,Young Lions,Geylang Int.,https://www.sofascore.com/football/match/young-lions-geylang-international/UkbsHGn#id:12247013,2024-08-10,0.83,3.05,0
+59708,2024,12247014,Hougang Utd,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/hougang-united-tanjong-pagar-united/NkbsIGn#id:12247014,2024-08-11,2.75,2.41,0
+59708,2024,12247015,Albirex Niigata,Young Lions,https://www.sofascore.com/football/match/young-lions-albirex-niigata-singapore/GGnsHGn#id:12247015,2024-08-04,0.95,0.33,0
+59708,2024,12247016,DPMM,Albirex Niigata,https://www.sofascore.com/football/match/brunei-dpmm-fc-albirex-niigata-singapore/GGnsKGn#id:12247016,2024-08-10,1.76,1.69,0
+59708,2024,12247017,DPMM,Young Lions,https://www.sofascore.com/football/match/brunei-dpmm-fc-young-lions/HGnsKGn#id:12247017,2024-07-27,2.4,1.95,0
+59708,2024,12247018,Geylang Int.,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-geylang-international/UkbsIGn#id:12247018,2024-08-02,1.19,1.13,0
+59708,2024,12247019,Geylang Int.,Balestier Khalsa,https://www.sofascore.com/football/match/geylang-international-balestier-khalsa/OkbsUkb#id:12247019,2024-07-28,2.42,2.74,0
+59708,2024,12247020,Tanjong Pagar Utd.,Tampines Rovers,https://www.sofascore.com/football/match/tampines-rovers-tanjong-pagar-united/NkbsTkb#id:12247020,2024-08-03,0.22,1.16,0
+59708,2024,12247021,Balestier Khalsa,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/balestier-khalsa-tanjong-pagar-united/NkbsOkb#id:12247021,2024-07-24,3.16,2.28,0
+59708,2024,12247022,Albirex Niigata,Tampines Rovers,https://www.sofascore.com/football/match/albirex-niigata-singapore-tampines-rovers/TkbsGGn#id:12247022,2024-07-27,1.93,2.35,0
+59708,2024,12247023,Hougang Utd,Albirex Niigata,https://www.sofascore.com/football/match/hougang-united-albirex-niigata-singapore/GGnsIGn#id:12247023,2024-07-23,1.32,0.83,0
+59708,2024,12247024,Young Lions,Lion City Sailors,https://www.sofascore.com/football/match/young-lions-lion-city-sailors/QkbsHGn#id:12247024,2024-07-22,0.74,2.53,0
+59708,2024,12247025,Lion City Sailors,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-lion-city-sailors/QkbsIGn#id:12247025,2024-07-28,5.14,0.63,0
+59708,2024,12247026,Tampines Rovers,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-tampines-rovers/TkbsUkb#id:12247026,2024-07-24,1.87,0.93,0
+59708,2024,12247027,Geylang Int.,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/geylang-international-tanjong-pagar-united/NkbsUkb#id:12247027,2024-07-19,,,0
+59708,2024,12247028,Albirex Niigata,Balestier Khalsa,https://www.sofascore.com/football/match/albirex-niigata-singapore-balestier-khalsa/OkbsGGn#id:12247028,2024-07-18,2.08,2.18,0
+59708,2024,12247029,DPMM,Hougang Utd,https://www.sofascore.com/football/match/brunei-dpmm-fc-hougang-united/IGnsKGn#id:12247029,2024-07-19,1.34,1.45,0
+59708,2024,12247030,Lion City Sailors,Tampines Rovers,https://www.sofascore.com/football/match/tampines-rovers-lion-city-sailors/QkbsTkb#id:12247030,2024-07-18,1.04,2.52,0
+59708,2024,12247031,Balestier Khalsa,Lion City Sailors,https://www.sofascore.com/football/match/lion-city-sailors-balestier-khalsa/OkbsQkb#id:12247031,2024-07-13,1.06,3.02,0
+59708,2024,12247032,Lion City Sailors,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/lion-city-sailors-tanjong-pagar-united/NkbsQkb#id:12247032,2024-07-07,1.11,0.85,0
+59708,2024,12247033,Tampines Rovers,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-tampines-rovers/TkbsKGn#id:12247033,2024-07-13,2.68,0.35,0
+59708,2024,12247034,Tanjong Pagar Utd.,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-tanjong-pagar-united/NkbsGGn#id:12247034,2024-07-12,2.65,0.93,0
+59708,2024,12247035,Tampines Rovers,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-tampines-rovers/TkbsIGn#id:12247035,2024-06-30,2.02,0.5,0
+59708,2024,12247036,Hougang Utd,Young Lions,https://www.sofascore.com/football/match/hougang-united-young-lions/HGnsIGn#id:12247036,2024-07-14,1.81,1.03,0
+59708,2024,12247037,Albirex Niigata,Geylang Int.,https://www.sofascore.com/football/match/albirex-niigata-singapore-geylang-international/UkbsGGn#id:12247037,2024-07-06,0.54,3.88,0
+59708,2024,12247038,Young Lions,Tampines Rovers,https://www.sofascore.com/football/match/young-lions-tampines-rovers/TkbsHGn#id:12247038,2024-07-06,0.57,3.15,0
+59708,2024,12247039,Balestier Khalsa,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-balestier-khalsa/OkbsKGn#id:12247039,2024-07-05,2.74,2.31,0
+59708,2024,12247040,Balestier Khalsa,Young Lions,https://www.sofascore.com/football/match/young-lions-balestier-khalsa/OkbsHGn#id:12247040,2024-06-29,3.84,0.7,0
+59708,2024,12247041,Young Lions,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/young-lions-tanjong-pagar-united/NkbsHGn#id:12247041,2024-06-22,2.97,2.05,0
+59708,2024,12247042,DPMM,Geylang Int.,https://www.sofascore.com/football/match/brunei-dpmm-fc-geylang-international/UkbsKGn#id:12247042,2024-06-22,1.55,1.95,0
+59708,2024,12247043,Geylang Int.,Lion City Sailors,https://www.sofascore.com/football/match/geylang-international-lion-city-sailors/QkbsUkb#id:12247043,2024-06-28,1.0,1.66,0
+59708,2024,12247044,Tampines Rovers,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/tampines-rovers-tanjong-pagar-united/NkbsTkb#id:12247044,2024-06-16,4.08,0.66,0
+59708,2024,12247045,Lion City Sailors,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-lion-city-sailors/QkbsGGn#id:12247045,2024-06-23,3.19,0.6,0
+59708,2024,12247046,DPMM,Lion City Sailors,https://www.sofascore.com/football/match/brunei-dpmm-fc-lion-city-sailors/QkbsKGn#id:12247046,2024-06-15,,,0
+59708,2024,12247047,Tanjong Pagar Utd.,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-tanjong-pagar-united/NkbsKGn#id:12247047,2024-06-29,3.33,1.8,0
+59708,2024,12247048,Young Lions,Albirex Niigata,https://www.sofascore.com/football/match/young-lions-albirex-niigata-singapore/GGnsHGn#id:12247048,2024-06-15,1.51,3.28,0
+59708,2024,12247049,Hougang Utd,Balestier Khalsa,https://www.sofascore.com/football/match/hougang-united-balestier-khalsa/OkbsIGn#id:12247049,2024-06-21,1.15,4.6,0
+59708,2024,12247050,Tanjong Pagar Utd.,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-tanjong-pagar-united/NkbsIGn#id:12247050,2024-05-26,0.18,1.15,0
+59708,2024,12247051,Albirex Niigata,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-albirex-niigata-singapore/GGnsKGn#id:12247051,2024-05-25,1.62,2.15,0
+59708,2024,12247052,Geylang Int.,Young Lions,https://www.sofascore.com/football/match/young-lions-geylang-international/UkbsHGn#id:12247052,2024-05-25,2.05,2.49,0
+59708,2024,12247053,Hougang Utd,Geylang Int.,https://www.sofascore.com/football/match/hougang-united-geylang-international/UkbsIGn#id:12247053,2024-06-14,0.67,3.13,0
+59708,2024,12247054,Tanjong Pagar Utd.,Balestier Khalsa,https://www.sofascore.com/football/match/balestier-khalsa-tanjong-pagar-united/NkbsOkb#id:12247054,2024-05-19,0.34,3.01,0
+59708,2024,12247055,Albirex Niigata,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-albirex-niigata-singapore/GGnsIGn#id:12247055,2024-05-18,1.77,2.75,0
+59708,2024,12247056,Tampines Rovers,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-tampines-rovers/TkbsGGn#id:12247056,2024-05-12,1.96,0.38,0
+59708,2024,12247057,Geylang Int.,Tampines Rovers,https://www.sofascore.com/football/match/geylang-international-tampines-rovers/TkbsUkb#id:12247057,2024-05-17,1.53,2.52,0
+59708,2024,12247058,Lion City Sailors,Young Lions,https://www.sofascore.com/football/match/young-lions-lion-city-sailors/QkbsHGn#id:12247058,2024-05-18,2.15,3.2,0
+59708,2024,12247060,Hougang Utd,Lion City Sailors,https://www.sofascore.com/football/match/hougang-united-lion-city-sailors/QkbsIGn#id:12247060,2024-05-10,1.81,1.57,0
+59708,2024,12247061,Balestier Khalsa,Tampines Rovers,https://www.sofascore.com/football/match/tampines-rovers-balestier-khalsa/OkbsTkb#id:12247061,2024-05-24,2.44,1.34,0
+59708,2024,12247062,Balestier Khalsa,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-balestier-khalsa/OkbsUkb#id:12247062,2024-05-10,3.59,0.73,0
+59708,2024,12247063,Young Lions,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-young-lions/HGnsKGn#id:12247063,2024-05-11,2.45,1.82,0
+59708,2024,12404673,DPMM,Lion City Sailors,https://www.sofascore.com/football/match/brunei-dpmm-fc-lion-city-sailors/QkbsKGn#id:12404673,2024-06-18,0.34,3.49,0
+59708,2024,13780782,Tanjong Pagar Utd.,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-tanjong-pagar-united/NkbsIGn#id:13780782,2025-05-13,1.13,1.25,0
+59708,2024,13780797,Tampines Rovers,Balestier Khalsa,https://www.sofascore.com/football/match/tampines-rovers-balestier-khalsa/OkbsTkb#id:13780797,2025-05-07,2.69,0.89,0
+59708,2024,13780842,Geylang Int.,DPMM,https://www.sofascore.com/football/match/brunei-dpmm-fc-geylang-international/UkbsKGn#id:13780842,2025-04-29,2.34,1.5,0
+59708,2024,13780850,Tanjong Pagar Utd.,Young Lions,https://www.sofascore.com/football/match/young-lions-tanjong-pagar-united/NkbsHGn#id:13780850,2025-05-07,1.74,0.94,0
+59708,2024,13781769,Lion City Sailors,Young Lions,https://www.sofascore.com/football/match/young-lions-lion-city-sailors/QkbsHGn#id:13781769,2025-04-30,2.17,0.47,0
+59708,2024,13786408,Young Lions,Geylang Int.,https://www.sofascore.com/football/match/young-lions-geylang-international/UkbsHGn#id:13786408,2025-05-15,0.52,1.18,0
+78478,25/26,14195482,Geylang Int.,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-geylang-international/UkbsGGn#id:14195482,2025-08-23,,,0
+78478,25/26,14195484,Tanjong Pagar Utd.,Tampines Rovers,https://www.sofascore.com/football/match/tampines-rovers-tanjong-pagar-united/NkbsTkb#id:14195484,2025-08-24,,,0
+78478,25/26,14195485,Tampines Rovers,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-tampines-rovers/TkbsUkb#id:14195485,2025-08-24,1.9,0.93,0
+78478,25/26,14195486,Hougang Utd,Lion City Sailors,https://www.sofascore.com/football/match/hougang-united-lion-city-sailors/QkbsIGn#id:14195486,2025-08-29,,,0
+78478,25/26,14195487,Albirex Niigata,Balestier Khalsa,https://www.sofascore.com/football/match/albirex-niigata-singapore-balestier-khalsa/OkbsGGn#id:14195487,2025-08-23,2.87,2.19,0
+78478,25/26,14195488,Tanjong Pagar Utd.,Lion City Sailors,https://www.sofascore.com/football/match/lion-city-sailors-tanjong-pagar-united/NkbsQkb#id:14195488,2025-09-12,,,0
+78478,25/26,14195489,Albirex Niigata,Tampines Rovers,https://www.sofascore.com/football/match/albirex-niigata-singapore-tampines-rovers/TkbsGGn#id:14195489,2025-09-13,,,0
+78478,25/26,14195493,Albirex Niigata,Geylang Int.,https://www.sofascore.com/football/match/albirex-niigata-singapore-geylang-international/UkbsGGn#id:14195493,2025-09-20,,,0
+78478,25/26,14195494,Lion City Sailors,Balestier Khalsa,https://www.sofascore.com/football/match/lion-city-sailors-balestier-khalsa/OkbsQkb#id:14195494,2025-09-21,,,0
+78478,25/26,14195495,Tampines Rovers,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/tampines-rovers-tanjong-pagar-united/NkbsTkb#id:14195495,2025-09-21,,,0
+78478,25/26,14195498,Tanjong Pagar Utd.,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-tanjong-pagar-united/NkbsUkb#id:14195498,2025-10-17,,,0
+78478,25/26,14195499,Tampines Rovers,Balestier Khalsa,https://www.sofascore.com/football/match/tampines-rovers-balestier-khalsa/OkbsTkb#id:14195499,2025-10-19,2.29,1.66,0
+78478,25/26,14195502,Balestier Khalsa,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/balestier-khalsa-tanjong-pagar-united/NkbsOkb#id:14195502,2025-10-24,2.71,1.28,0
+78478,25/26,14195503,Young Lions,Geylang Int.,https://www.sofascore.com/football/match/young-lions-geylang-international/UkbsHGn#id:14195503,2025-10-25,0.7,3.14,0
+78478,25/26,14195504,Hougang Utd,Tampines Rovers,https://www.sofascore.com/football/match/hougang-united-tampines-rovers/TkbsIGn#id:14195504,2025-10-27,0.32,1.02,0
+78478,25/26,14195505,Lion City Sailors,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-lion-city-sailors/QkbsGGn#id:14195505,2025-10-27,1.45,0.64,0
+78478,25/26,14195506,Geylang Int.,Balestier Khalsa,https://www.sofascore.com/football/match/geylang-international-balestier-khalsa/OkbsUkb#id:14195506,2026-01-09,,,1
+78478,25/26,14195507,Albirex Niigata,Young Lions,https://www.sofascore.com/football/match/young-lions-albirex-niigata-singapore/GGnsHGn#id:14195507,2026-01-10,,,1
+78478,25/26,14195508,Tampines Rovers,Lion City Sailors,https://www.sofascore.com/football/match/tampines-rovers-lion-city-sailors/QkbsTkb#id:14195508,2026-01-11,,,1
+78478,25/26,14195509,Tanjong Pagar Utd.,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-tanjong-pagar-united/NkbsIGn#id:14195509,2026-01-12,,,1
+78478,25/26,14195510,Geylang Int.,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-geylang-international/UkbsIGn#id:14195510,2026-01-16,,,1
+78478,25/26,14195512,Tampines Rovers,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-tampines-rovers/TkbsGGn#id:14195512,2026-01-18,,,1
+78478,25/26,14195513,Lion City Sailors,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/lion-city-sailors-tanjong-pagar-united/NkbsQkb#id:14195513,2026-01-19,,,1
+78478,25/26,14195514,Geylang Int.,Tampines Rovers,https://www.sofascore.com/football/match/geylang-international-tampines-rovers/TkbsUkb#id:14195514,2026-01-23,,,1
+78478,25/26,14195515,Lion City Sailors,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-lion-city-sailors/QkbsIGn#id:14195515,2025-08-25,0.63,0.61,0
+78478,25/26,14195516,Tanjong Pagar Utd.,Young Lions,https://www.sofascore.com/football/match/young-lions-tanjong-pagar-united/NkbsHGn#id:14195516,2025-09-22,,,0
+78478,25/26,14195518,Geylang Int.,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/geylang-international-tanjong-pagar-united/NkbsUkb#id:14195518,2025-10-18,2.09,0.41,0
+78478,25/26,14195519,Balestier Khalsa,Tampines Rovers,https://www.sofascore.com/football/match/tampines-rovers-balestier-khalsa/OkbsTkb#id:14195519,2026-01-31,,,1
+78478,25/26,14195520,Lion City Sailors,Young Lions,https://www.sofascore.com/football/match/young-lions-lion-city-sailors/QkbsHGn#id:14195520,2025-10-18,3.21,0.16,0
+78478,25/26,14195521,Hougang Utd,Albirex Niigata,https://www.sofascore.com/football/match/hougang-united-albirex-niigata-singapore/GGnsIGn#id:14195521,2025-10-17,1.09,1.34,0
+78478,25/26,14195522,Albirex Niigata,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/albirex-niigata-singapore-tanjong-pagar-united/NkbsGGn#id:14195522,2026-01-17,,,1
+78478,25/26,14195523,Tampines Rovers,Young Lions,https://www.sofascore.com/football/match/young-lions-tampines-rovers/TkbsHGn#id:14195523,2026-01-16,,,1
+78478,25/26,14195525,Balestier Khalsa,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-balestier-khalsa/OkbsIGn#id:14195525,2026-01-18,,,1
+78478,25/26,14195540,Geylang Int.,Lion City Sailors,https://www.sofascore.com/football/match/geylang-international-lion-city-sailors/QkbsUkb#id:14195540,2026-01-18,,,1
+78478,25/26,14195542,Albirex Niigata,Tampines Rovers,https://www.sofascore.com/football/match/albirex-niigata-singapore-tampines-rovers/TkbsGGn#id:14195542,2026-03-22,,,1
+78478,25/26,14195543,Balestier Khalsa,Young Lions,https://www.sofascore.com/football/match/young-lions-balestier-khalsa/OkbsHGn#id:14195543,2026-02-13,,,1
+78478,25/26,14195545,Lion City Sailors,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/lion-city-sailors-tanjong-pagar-united/NkbsQkb#id:14195545,2026-04-05,,,1
+78478,25/26,14195546,Hougang Utd,Geylang Int.,https://www.sofascore.com/football/match/hougang-united-geylang-international/UkbsIGn#id:14195546,2026-04-04,,,1
+78478,25/26,14195547,Albirex Niigata,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-albirex-niigata-singapore/GGnsIGn#id:14195547,2026-02-09,,,1
+78478,25/26,14195549,Young Lions,Lion City Sailors,https://www.sofascore.com/football/match/young-lions-lion-city-sailors/QkbsHGn#id:14195549,2026-02-08,,,1
+78478,25/26,14195551,Albirex Niigata,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-albirex-niigata-singapore/GGnsIGn#id:14195551,2026-04-17,,,1
+78478,25/26,14195552,Tampines Rovers,Balestier Khalsa,https://www.sofascore.com/football/match/tampines-rovers-balestier-khalsa/OkbsTkb#id:14195552,2026-04-17,,,1
+78478,25/26,14195553,Young Lions,Lion City Sailors,https://www.sofascore.com/football/match/young-lions-lion-city-sailors/QkbsHGn#id:14195553,2026-04-19,,,1
+78478,25/26,14195555,Tampines Rovers,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-tampines-rovers/TkbsUkb#id:14195555,2026-04-11,,,1
+78478,25/26,14195556,Hougang Utd,Lion City Sailors,https://www.sofascore.com/football/match/hougang-united-lion-city-sailors/QkbsIGn#id:14195556,2026-04-25,,,1
+78478,25/26,14195557,Young Lions,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/young-lions-tanjong-pagar-united/NkbsHGn#id:14195557,2026-04-26,,,1
+78478,25/26,14195558,Balestier Khalsa,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-balestier-khalsa/OkbsGGn#id:14195558,2026-04-13,,,1
+78478,25/26,14195559,Tampines Rovers,Lion City Sailors,https://www.sofascore.com/football/match/tampines-rovers-lion-city-sailors/QkbsTkb#id:14195559,2026-05-02,,,1
+78478,25/26,14195560,Geylang Int.,Balestier Khalsa,https://www.sofascore.com/football/match/geylang-international-balestier-khalsa/OkbsUkb#id:14195560,2026-05-03,,,1
+78478,25/26,14195561,Albirex Niigata,Young Lions,https://www.sofascore.com/football/match/young-lions-albirex-niigata-singapore/GGnsHGn#id:14195561,2026-05-04,,,1
+78478,25/26,14195562,Tanjong Pagar Utd.,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-tanjong-pagar-united/NkbsIGn#id:14195562,2026-05-05,,,1
+78478,25/26,14195563,Balestier Khalsa,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/balestier-khalsa-tanjong-pagar-united/NkbsOkb#id:14195563,2026-05-09,,,1
+78478,25/26,14195564,Young Lions,Geylang Int.,https://www.sofascore.com/football/match/young-lions-geylang-international/UkbsHGn#id:14195564,2026-05-09,,,1
+78478,25/26,14195565,Hougang Utd,Tampines Rovers,https://www.sofascore.com/football/match/hougang-united-tampines-rovers/TkbsIGn#id:14195565,2026-05-10,,,1
+78478,25/26,14195566,Lion City Sailors,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-lion-city-sailors/QkbsGGn#id:14195566,2026-05-10,,,1
+78478,25/26,14211926,Balestier Khalsa,Lion City Sailors,https://www.sofascore.com/football/match/lion-city-sailors-balestier-khalsa/OkbsQkb#id:14211926,2025-08-25,,,0
+78478,25/26,14254080,Tanjong Pagar Utd.,Tampines Rovers,https://www.sofascore.com/football/match/tampines-rovers-tanjong-pagar-united/NkbsTkb#id:14254080,2025-09-13,0.24,2.46,0
+78478,25/26,14254081,Geylang Int.,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-geylang-international/UkbsGGn#id:14254081,2025-09-12,0.44,0.73,0
+78478,25/26,14254390,Balestier Khalsa,Lion City Sailors,https://www.sofascore.com/football/match/lion-city-sailors-balestier-khalsa/OkbsQkb#id:14254390,2025-09-14,0.48,3.21,0
+78478,25/26,14254830,Albirex Niigata,Tampines Rovers,https://www.sofascore.com/football/match/albirex-niigata-singapore-tampines-rovers/TkbsGGn#id:14254830,2025-09-21,,,0
+78478,25/26,14254859,Tanjong Pagar Utd.,Lion City Sailors,https://www.sofascore.com/football/match/lion-city-sailors-tanjong-pagar-united/NkbsQkb#id:14254859,2025-09-22,0.42,1.98,0
+78478,25/26,14255430,Hougang Utd,Lion City Sailors,https://www.sofascore.com/football/match/hougang-united-lion-city-sailors/QkbsIGn#id:14255430,2026-01-24,,,1
+78478,25/26,14255446,Young Lions,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/young-lions-tanjong-pagar-united/NkbsHGn#id:14255446,2026-01-26,,,1
+78478,25/26,14255489,Tampines Rovers,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/tampines-rovers-tanjong-pagar-united/NkbsTkb#id:14255489,2026-01-31,,,1
+78478,25/26,14255505,Tanjong Pagar Utd.,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-tanjong-pagar-united/NkbsUkb#id:14255505,2026-02-06,,,1
+78478,25/26,14255506,Albirex Niigata,Geylang Int.,https://www.sofascore.com/football/match/albirex-niigata-singapore-geylang-international/UkbsGGn#id:14255506,2026-02-02,,,1
+78478,25/26,14255528,Balestier Khalsa,Tampines Rovers,https://www.sofascore.com/football/match/tampines-rovers-balestier-khalsa/OkbsTkb#id:14255528,2026-02-07,,,1
+78478,25/26,14255562,Tampines Rovers,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-tampines-rovers/TkbsGGn#id:14255562,2026-02-14,,,1
+78478,25/26,14255563,Lion City Sailors,Balestier Khalsa,https://www.sofascore.com/football/match/lion-city-sailors-balestier-khalsa/OkbsQkb#id:14255563,2026-02-01,,,1
+78478,25/26,14255570,Lion City Sailors,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/lion-city-sailors-tanjong-pagar-united/NkbsQkb#id:14255570,2026-02-15,,,1
+78478,25/26,14255578,Geylang Int.,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-geylang-international/UkbsIGn#id:14255578,2026-02-15,,,1
+78478,25/26,14270526,Balestier Khalsa,Albirex Niigata,https://www.sofascore.com/football/match/albirex-niigata-singapore-balestier-khalsa/OkbsGGn#id:14270526,2026-01-25,,,1
+78478,25/26,14292002,Young Lions,Balestier Khalsa,https://www.sofascore.com/football/match/young-lions-balestier-khalsa/OkbsHGn#id:14292002,2025-09-21,1.9,1.38,0
+78478,25/26,14292271,Tampines Rovers,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-tampines-rovers/TkbsUkb#id:14292271,2026-04-11,,,1
+78478,25/26,14292272,Tanjong Pagar Utd.,Young Lions,https://www.sofascore.com/football/match/young-lions-tanjong-pagar-united/NkbsHGn#id:14292272,2026-04-10,,,1
+78478,25/26,14292273,Lion City Sailors,Geylang Int.,https://www.sofascore.com/football/match/geylang-international-lion-city-sailors/QkbsUkb#id:14292273,2026-04-12,,,1
+78478,25/26,14296929,Hougang Utd,Geylang Int.,https://www.sofascore.com/football/match/hougang-united-geylang-international/UkbsIGn#id:14296929,2025-09-19,0.79,1.16,0
+78478,25/26,14320673,Tampines Rovers,Young Lions,https://www.sofascore.com/football/match/young-lions-tampines-rovers/TkbsHGn#id:14320673,2026-04-24,,,1
+78478,25/26,14320674,Lion City Sailors,Young Lions,https://www.sofascore.com/football/match/young-lions-lion-city-sailors/QkbsHGn#id:14320674,2026-04-20,,,1
+78478,25/26,14320675,Tanjong Pagar Utd.,Lion City Sailors,https://www.sofascore.com/football/match/lion-city-sailors-tanjong-pagar-united/NkbsQkb#id:14320675,2026-04-06,,,1
+78478,25/26,14320676,Balestier Khalsa,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-balestier-khalsa/OkbsIGn#id:14320676,2026-04-27,,,1
+78478,25/26,14323453,Hougang Utd,Albirex Niigata,https://www.sofascore.com/football/match/hougang-united-albirex-niigata-singapore/GGnsIGn#id:14323453,2026-04-18,,,1
+78478,25/26,14323988,Lion City Sailors,Hougang Utd,https://www.sofascore.com/football/match/hougang-united-lion-city-sailors/QkbsIGn#id:14323988,2026-04-12,,,1
+78478,25/26,14324105,Albirex Niigata,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/albirex-niigata-singapore-tanjong-pagar-united/NkbsGGn#id:14324105,2026-04-25,,,1
+78478,25/26,14324106,Tampines Rovers,Balestier Khalsa,https://www.sofascore.com/football/match/tampines-rovers-balestier-khalsa/OkbsTkb#id:14324106,2026-04-17,,,1
+78478,25/26,14324107,Geylang Int.,Tanjong Pagar Utd.,https://www.sofascore.com/football/match/geylang-international-tanjong-pagar-united/NkbsUkb#id:14324107,2026-04-19,,,1
+78478,25/26,14325719,Geylang Int.,Lion City Sailors,https://www.sofascore.com/football/match/geylang-international-lion-city-sailors/QkbsUkb#id:14325719,2026-04-26,,,1
+78478,25/26,14689646,Tanjong Pagar Utd.,Young Lions,https://www.sofascore.com/football/match/young-lions-tanjong-pagar-united/NkbsHGn#id:14689646,2025-09-25,3.27,0.77,0
+78478,25/26,15037752,Albirex Niigata,Young Lions,https://www.sofascore.com/football/match/young-lions-albirex-niigata-singapore/GGnsHGn#id:15037752,2026-05-16,,,1
