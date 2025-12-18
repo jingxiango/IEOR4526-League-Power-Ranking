@@ -23,6 +23,14 @@ h1, h2, h3 { letter-spacing: -0.02em; }
 .rowcard { padding: 10px 10px; border-bottom: 1px solid rgba(0,0,0,0.07); }
 .matchname { font-weight: 800; font-size: 14px; }
 
+/* Sticky sidebar */
+section[data-testid="stSidebar"] {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: auto;
+}
+
 .probbar {
   width: 180px; height: 14px;
   border-radius: 8px;
