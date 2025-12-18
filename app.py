@@ -312,10 +312,19 @@ Each row is a future match for the selected club, with Win/Draw/Loss probabiliti
         # xG (optional)
         xg_for = r.get("xg_for", None)
         xg_against = r.get("xg_against", None)
-        xg_txt = ""
+        xg_line = ""
         if "xg_for" in team_df.columns and "xg_against" in team_df.columns:
             if pd.notna(xg_for) and pd.notna(xg_against):
-                xg_txt = f" • xG {float(xg_for):.2f}–{float(xg_against):.2f}"
+                xg_line = f"""
+                <div class="smallmuted">
+                    xG {float(xg_for):.2f} – {float(xg_against):.2f}
+                </div>
+                """
+        # correct home/away ordering (optional but recommended)
+        if isinstance(venue, str) and venue.upper() == "A":
+            title = f"{opp} vs {selected_team}"
+        else:
+            title = f"{selected_team} vs {opp}"
 
         # pretty venue
         venue_txt = venue
@@ -327,31 +336,24 @@ Each row is a future match for the selected club, with Win/Draw/Loss probabiliti
 
         exp_txt = "" if pd.isna(exp_pts) else f"{float(exp_pts):.2f}"
 
-        st.markdown(
-            f"""
-<div class="rowcard">
-  <div class="smallmuted">{kickoff} • {venue_txt}</div>
-  <div class="matchname">{selected_team} vs {opp}{xg_txt}</div>
+        st.markdown(f"""
+        <div class="rowcard">
+        <div class="smallmuted">{kickoff} • {venue_txt}</div>
+        <div class="matchname">{title}</div>
+        {xg_line}
 
-  <div style="display:flex; gap:14px; align-items:center; margin-top:6px;">
-    {prob_bar(pw, pdw, pl)}
-    <div class="smallmuted" style="min-width:220px;">
-      Win {0 if pwp is None else pwp:.0f}% •
-      Draw {0 if pdwp is None else pdwp:.0f}% •
-      Loss {0 if plp is None else plp:.0f}%
-    </div>
-    <div style="flex:1;"></div>
-    <div>
-      <div class="smallmuted">Expected Pts</div>
-      <div style="font-weight:800; font-size:14px;">{exp_txt}</div>
-    </div>
-  </div>
-</div>
-""",
-            unsafe_allow_html=True,
-        )
-
-    # Optional: show a raw table below for debugging / transparency
-    with st.expander("Show raw fixtures table for this team"):
-        show_cols = [c for c in ["kickoff", "opponent", "venue", "p_win", "p_draw", "p_loss", "exp_pts"] if c in team_df.columns]
-        st.dataframe(team_df[show_cols], use_container_width=True)
+        <div style="display:flex; gap:14px; align-items:center; margin-top:8px;">
+            {prob_bar(pw, pdw, pl)}
+            <div class="smallmuted" style="min-width:220px;">
+            Win {0 if pwp is None else pwp:.0f}% •
+            Draw {0 if pdwp is None else pdwp:.0f}% •
+            Loss {0 if plp is None else plp:.0f}%
+            </div>
+            <div style="flex:1;"></div>
+            <div>
+            <div class="smallmuted">Expected Pts</div>
+            <div style="font-weight:800; font-size:14px;">{exp_txt}</div>
+            </div>
+        </div>
+        </div>
+        """, unsafe_allow_html=True)
