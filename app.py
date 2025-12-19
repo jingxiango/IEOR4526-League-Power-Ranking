@@ -300,6 +300,7 @@ Each row is a future match for the selected club, with Win/Draw/Loss probabiliti
                     f'</div>'
                 )
 
+        title = f"{selected_team} vs {opp}"
         # Pretty venue
         venue_txt = venue
         if isinstance(venue, str):
