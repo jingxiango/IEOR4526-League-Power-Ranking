@@ -300,13 +300,6 @@ Each row is a future match for the selected club, with Win/Draw/Loss probabiliti
                     f'</div>'
                 )
 
-        # Home/away ordering
-        if venue.upper() == "A":
-            title = f"{selected_team} @ {opp}"   # away at opponent
-        else:
-            title = f"{selected_team} vs {opp}"  # home vs opponent
-
-
         # Pretty venue
         venue_txt = venue
         if isinstance(venue, str):
