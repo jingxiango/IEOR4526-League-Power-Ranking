@@ -28,4 +28,5 @@ Thumbs.db
 # ======================
 .sofascore_stats_cache/
 .sofascore_event_page_cache/
+data/poller_state.sqlite
 
