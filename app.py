@@ -215,6 +215,62 @@ def _apply_eventmin_updates(df: pd.DataFrame, events: list[dict]) -> pd.DataFram
     return out
 
 
+def _apply_statsmin_to_fixtures(fixtures: pd.DataFrame, stats: list[dict]) -> pd.DataFrame:
+    """
+    Apply StatsMin-style xG overrides to the exported fixtures table (team/opponent rows).
+    Expected fields per stats record:
+      event_id, home_xg, away_xg
+
+    If fixtures has columns: event_id, venue (H/A), xg_for, xg_against, we override:
+      - venue == H: xg_for=home_xg, xg_against=away_xg
+      - venue == A: xg_for=away_xg, xg_against=home_xg
+    """
+    if fixtures is None or fixtures.empty or not stats:
+        return fixtures
+
+    needed = {"event_id", "venue", "xg_for", "xg_against"}
+    if not needed.issubset(set(fixtures.columns)):
+        return fixtures
+
+    # build lookup
+    lut: dict[int, tuple[float | None, float | None]] = {}
+    for s in stats:
+        try:
+            eid = int(s.get("event_id"))
+        except Exception:
+            continue
+        hxg = s.get("home_xg")
+        axg = s.get("away_xg")
+        try:
+            hxg = None if hxg is None else float(hxg)
+            axg = None if axg is None else float(axg)
+        except Exception:
+            continue
+        lut[eid] = (hxg, axg)
+
+    if not lut:
+        return fixtures
+
+    out = fixtures.copy()
+    out["event_id"] = pd.to_numeric(out["event_id"], errors="coerce")
+    out["venue"] = out["venue"].astype(str).str.strip().str.upper()
+
+    for eid, (hxg, axg) in lut.items():
+        if hxg is None or axg is None:
+            continue
+        m = out["event_id"] == eid
+        if not m.any():
+            continue
+        m_h = m & (out["venue"] == "H")
+        m_a = m & (out["venue"] == "A")
+        out.loc[m_h, "xg_for"] = hxg
+        out.loc[m_h, "xg_against"] = axg
+        out.loc[m_a, "xg_for"] = axg
+        out.loc[m_a, "xg_against"] = hxg
+
+    return out
+
+
 # -------------------------
 # Sidebar navigation
 # -------------------------
@@ -231,14 +287,25 @@ with st.sidebar.expander("Demo input (Community Cloud) — upload JSON", expande
         accept_multiple_files=True,
         key="upload_events",
     )
+    uploaded_stats = st.file_uploader(
+        "Upload StatsMin JSON file(s)",
+        type=["json"],
+        accept_multiple_files=True,
+        key="upload_stats",
+    )
     if st.button("Reset uploaded demo inputs", use_container_width=True):
         st.session_state.pop("demo_events", None)
         st.session_state.pop("upload_events", None)
+        st.session_state.pop("demo_stats", None)
+        st.session_state.pop("upload_stats", None)
         st.rerun()
 
     if uploaded_events:
         st.session_state["demo_events"] = _parse_uploaded_json_files(uploaded_events)
         st.write(f"Loaded {len(st.session_state['demo_events'])} event records.")
+    if uploaded_stats:
+        st.session_state["demo_stats"] = _parse_uploaded_json_files(uploaded_stats)
+        st.write(f"Loaded {len(st.session_state['demo_stats'])} stats records.")
 
 # -------------------------
 # Power Ranking page
@@ -362,6 +429,12 @@ else:
     # numeric columns
     for c in ["p_win", "p_draw", "p_loss", "exp_pts", "xg_for", "xg_against"]:
         fixtures = safe_num(fixtures, c)
+
+    # Apply uploaded stats (Community Cloud demo): override xg_for/xg_against when event_id matches.
+    demo_stats = st.session_state.get("demo_stats") or []
+    if demo_stats:
+        st.info("Demo mode: applying uploaded StatsMin JSON to override xG values where event_id matches.")
+        fixtures = _apply_statsmin_to_fixtures(fixtures, demo_stats)
 
     if "team" not in fixtures.columns:
         st.error("Fixtures file must contain a `team` column (team-opponent rows).")
