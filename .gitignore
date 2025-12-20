@@ -30,3 +30,14 @@ Thumbs.db
 .sofascore_event_page_cache/
 data/poller_state.sqlite
 
+# ======================
+# Spark / streaming outputs (generated)
+# ======================
+spark-warehouse/
+data/_chk/
+data/stream_in/
+data/models/
+data/master_file_model/
+data/dashboard_table_csv/
+data/match_level_fixtures/
+
